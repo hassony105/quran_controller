@@ -10,7 +10,7 @@ class QuranController{
   final int pageNumber;
   static String fontFamily = FontLoaderService.fontFamily;
   late List<Verse> verses;
-  
+
   QuranController({required this.pageNumber});
 
   initializing()async{
