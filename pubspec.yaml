@@ -1,6 +1,6 @@
 name: quran_controller
 description: Quran Controller Package
-version: 0.0.1
+version: 0.0.4
 homepage: https://www.google.com
 
 environment:
@@ -25,6 +25,7 @@ flutter:
 
   assets:
     - assets/fonts/
+    - assets/quran/
 
 #  fonts:
 #    - family: sura
