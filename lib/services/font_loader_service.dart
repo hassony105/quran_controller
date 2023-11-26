@@ -1,4 +1,4 @@
-import 'package:flutter/services.dart';
+import 'package:flutter/services.dart' show FontLoader, ByteData, rootBundle;
 
 class FontLoaderService {
   final int _pageNumber;
@@ -15,11 +15,8 @@ class FontLoaderService {
   Future<void> loadFonts() async {
     FontLoader fontLoader = FontLoader(fontFamily);
 
-    fontLoader.addFont(_loadFont('assets/fonts/QCF_P$_fontNumber.TTF'));
+    fontLoader.addFont(rootBundle.load('lib/assets/fonts/QCF_P$_fontNumber.TTF'));
     await fontLoader.load();
   }
 
-  Future<ByteData> _loadFont(String fontPath) async {
-    return await rootBundle.load(fontPath);
-  }
 }

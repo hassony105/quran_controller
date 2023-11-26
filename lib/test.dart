@@ -1,17 +1,20 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:quran_controller/models/models.dart';
-import 'package:quran_controller/quran_controller.dart';
+// import 'package:quran_controller/quran_controller.dart';
+import 'package:quran_controller/services/font_loader_service.dart' show FontLoaderService;
 
 void main() async {
   // for (var i = 1; i <= 604; i++) {
   //   await generator(i);
   // }
 
-  QuranController quranController = QuranController(pageNumber: 1);
-  print(quranController.verses.map((e) => e.toJson()).toList());
+  FontLoaderService fontLoaderService = FontLoaderService(pageNumber: 1);
+  await fontLoaderService.loadFonts().onError((error, stackTrace) => print('${error.toString()} \n+\n ${stackTrace.toString()}'));
+  runApp(const MaterialApp(home: Center()));
 }
 
 Future<void> generator(int index) async{

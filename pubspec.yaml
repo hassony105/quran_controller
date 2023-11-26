@@ -24,8 +24,8 @@ dev_dependencies:
 flutter:
 
   assets:
-    - assets/fonts/
-    - assets/quran/
+    - lib/assets/fonts/
+    - lib/assets/quran/
 
 #  fonts:
 #    - family: sura
