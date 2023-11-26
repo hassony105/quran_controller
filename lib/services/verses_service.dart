@@ -7,13 +7,9 @@ import '../models/verse.dart';
 class VersesService{
   final int pageNumber;
 
-  VersesService(this.pageNumber){
-    _gettingVerses();
-  }
+  VersesService(this.pageNumber);
 
-  late List<Verse> verses;
-
-  void _gettingVerses() async {
+  Future<List<Verse>> gettingVerses() async {
     try{
       List<Verse> verses = [];
       String data = await rootBundle.loadString('assets/quran/$pageNumber.json');
@@ -21,7 +17,7 @@ class VersesService{
       for (var item in body) {
         verses.add(Verse.fromJson(item));
       }
-      this.verses = verses;
+      return verses;
     }catch(e){
       rethrow;
     }

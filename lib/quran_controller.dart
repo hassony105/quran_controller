@@ -10,10 +10,12 @@ class QuranController{
   final int pageNumber;
   static String fontFamily = FontLoaderService.fontFamily;
   late List<Verse> verses;
+  
+  QuranController({required this.pageNumber});
 
-  QuranController({required this.pageNumber}){
-    FontLoaderService(pageNumber: pageNumber);
+  initializing()async{
+    await FontLoaderService(pageNumber: pageNumber).loadFonts();
     VersesService versesService = VersesService(pageNumber);
-    verses = versesService.verses;
+    verses = await versesService.gettingVerses();
   }
 }
