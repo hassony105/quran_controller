@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 
 import '../models/verse.dart';
 
@@ -12,7 +13,10 @@ class VersesService{
   Future<List<Verse>> gettingVerses() async {
     try{
       List<Verse> verses = [];
-      String data = await rootBundle.loadString('lib/assets/quran/$pageNumber.json');
+
+      var myPackageDir = await getApplicationDocumentsDirectory();
+      var myPackagePath = myPackageDir.path;
+      String data = await rootBundle.loadString('$myPackagePath/lib/assets/quran/$pageNumber.json');
       final body = json.decode(data);
       for (var item in body) {
         verses.add(Verse.fromJson(item));
