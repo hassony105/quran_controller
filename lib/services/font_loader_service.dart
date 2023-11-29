@@ -17,7 +17,7 @@ class FontLoaderService {
     FontLoader fontLoader = FontLoader(fontFamily);
     // var myPackageDir = await getApplicationDocumentsDirectory();
     // var myPackagePath = myPackageDir.path;
-    fontLoader.addFont(rootBundle.load('packages/quran_controller/assets/fonts/QCF_P$_fontNumber.TTF'));
+    fontLoader.addFont(rootBundle.load(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\fonts\\QCF_P$_fontNumber.TTF'*/'packages/quran_controller/assets/fonts/QCF_P$_fontNumber.TTF'));
     await fontLoader.load();
   }
 

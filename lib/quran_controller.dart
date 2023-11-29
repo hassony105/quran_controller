@@ -15,7 +15,7 @@ class QuranController{
 
   initializing()async{
     await FontLoaderService(pageNumber: pageNumber).loadFonts();
-    VersesService versesService = VersesService(pageNumber);
-    verses = await versesService.gettingVerses();
+    VersesService versesService = VersesService();
+    verses = (await versesService.gettingVersesBySurahNumber(1))??[];
   }
 }

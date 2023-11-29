@@ -13,6 +13,7 @@ class Verse {
   int? pageNumber;
   int? juzNumber;
   List<VerseWord>? words;
+  String? get fullVerse => words!.map((e) => e.codeV1).join(' ');
 
   Verse({this.id, this.verseNumber, this.verseKey, this.hizbNumber, this.rubElHizbNumber, this.rukuNumber, this.manzilNumber, this.sajdahNumber, this.textImlaeiSimple, this.pageNumber, this.juzNumber, this.words});
 
