@@ -31,7 +31,7 @@ class VersesService{
   static Future<List<Verse>> gettingVersesBySurahNumber(int surahNumber) async {
     try{
       List<Surah> surahs = [];
-      String data = await rootBundle.loadString(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\surah\\surah.json'*/'packages/quran_controller/assets/surah/surah.json');
+      String data = await rootBundle.loadString(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\surah\\surah.json'*/'packages/quran_controller/assets/surah/surahs.json');
       final body = json.decode(data);
       for (var item in body) {
         surahs.add(Surah.fromJson(item));
