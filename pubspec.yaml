@@ -26,7 +26,8 @@ flutter:
 
   assets:
     - assets/fonts/
-    - assets/quran/
+    - assets/surah/
+    - assets/verses/
 
 #  fonts:
 #    - family: sura
