@@ -7,15 +7,20 @@ import '../../services/services.dart';
 
 
 class QuranController{
-  final int pageNumber;
+  final int? pageNumber;
+  final int? surahNumber;
   static String fontFamily = FontLoaderService.fontFamily;
   late List<Verse> verses;
 
-  QuranController({required this.pageNumber});
+  QuranController({this.pageNumber, this.surahNumber});
 
   initializing()async{
-    await FontLoaderService(pageNumber: pageNumber).loadFonts();
-    VersesService versesService = VersesService();
-    verses = (await versesService.gettingVersesBySurahNumber(1))??[];
+    if(surahNumber != null) {
+      verses = (await VersesService.gettingVersesBySurahNumber(surahNumber!));
+    }else if(pageNumber != null){
+      verses = (await VersesService.gettingVersesByPageNumber(pageNumber!));
+    }else{
+      verses = [];
+    }
   }
 }

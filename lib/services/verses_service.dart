@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:quran_controller/models/surah.dart';
+import 'package:quran_controller/services/services.dart';
 // import 'package:path_provider/path_provider.dart';
 
 import '../models/verse.dart';
@@ -20,13 +21,14 @@ class VersesService{
       for (var item in body) {
         verses.add(Verse.fromJson(item));
       }
+      await FontLoaderService(pageNumber: pageNumber).loadFonts();
       return verses;
     }catch(e){
       rethrow;
     }
   }
 
-  Future<List<Verse>?> gettingVersesBySurahNumber(int surahNumber) async {
+  static Future<List<Verse>> gettingVersesBySurahNumber(int surahNumber) async {
     try{
       List<Surah> surahs = [];
       String data = await rootBundle.loadString(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\surah\\surah.json'*/'packages/quran_controller/assets/surah/surah.json');
@@ -41,7 +43,7 @@ class VersesService{
           print(i);
         }
       }
-      return selectedSurah.verses;
+      return selectedSurah.verses ?? [];
     }catch(e){
       rethrow;
     }
