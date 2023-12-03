@@ -25,7 +25,6 @@ class _QuranSurahViewState extends State<QuranSurahView> {
   Juz juz = Juz();
   int versesCount = 0;
   List<int?> bookmarked = [];
-
   @override
   void initState() {
     scrollController.addListener(() => setState((){},),);

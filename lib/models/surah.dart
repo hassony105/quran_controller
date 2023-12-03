@@ -1,6 +1,7 @@
 import 'models.dart';
 
 class Surah{
+  int? surahNumber;
   int? versesCount;
   String? surahName;
   String? revelationPlace;
@@ -8,9 +9,10 @@ class Surah{
   int? endPage;
   List<Verse>? verses;
 
-  Surah({this.versesCount, this.surahName, this.revelationPlace, this.startPage, this.endPage, this.verses});
+  Surah({this.surahNumber, this.versesCount, this.surahName, this.revelationPlace, this.startPage, this.endPage, this.verses});
 
   Surah.fromJson(Map<String, dynamic> data){
+    surahNumber = data['surahNumber'];
     versesCount = data['versesCount'];
     surahName = data['surahName'];
     revelationPlace = data['revelationPlace'];
@@ -22,6 +24,7 @@ class Surah{
   Map<String, dynamic> toJson(){
     Map<String, dynamic> data = {};
 
+    data['surahNumber'] = surahNumber;
     data['versesCount'] = versesCount;
     data['surahName'] = surahName;
     data['revelationPlace'] = revelationPlace;

@@ -30,15 +30,22 @@ class VersesService{
       rethrow;
     }
   }
-
-  static Future<Surah> gettingVersesBySurahNumber(int surahNumber) async {
+  static Future<List<Surah>> getSurahsDetails() async {
     try{
       List<Surah> surahs = [];
       String data = await rootBundle.loadString('packages/quran_controller/assets/surah/surahs.json');
       final body = json.decode(data);
-      for (var item in body.keys) {
-        surahs.add(Surah.fromJson(body[item]));
+      for (var item in body) {
+        surahs.add(Surah.fromJson(item));
       }
+      return surahs;
+    } catch (e){
+      rethrow;
+    }
+  }
+  static Future<Surah> gettingVersesBySurahNumber(int surahNumber) async {
+    try{
+      List<Surah> surahs = await getSurahsDetails();
       Surah selectedSurah = surahs[surahNumber-1];
       selectedSurah.verses = [];
       for (var i = selectedSurah.startPage; i! <= selectedSurah.endPage!; i++) {

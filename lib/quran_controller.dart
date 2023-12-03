@@ -11,14 +11,16 @@ class QuranController{
   Surah surah = Surah();
   VersesByPage verses = VersesByPage();
   Juz juz = Juz();
+  List<Surah> surahsDetails = [];
   static const String basmalaText = '\u00F3';
   static const String surahText = '\u005C';
   static const String basmalaAndSurahsNameFontsFamily = FontLoaderService.basmalaAndSurahsNameFontsFamily;
 
   QuranController({this.pageNumber, this.surahNumber, this.juzNumber});
 
-  initializing()async{
+  initializing() async {
     await FontLoaderService.loadBasmalaAndSurahsNameFonts();
+    surahsDetails = await VersesService.getSurahsDetails();
     if(surahNumber != null) {
       surah = (await VersesService.gettingVersesBySurahNumber(surahNumber!));
     }

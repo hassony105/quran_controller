@@ -1,818 +1,932 @@
-{
-  "1": {
+[
+  {
     "endPage": 1,
     "startPage": 1,
     "revelationPlace": "makkah",
     "surahName": "الفاتحة",
-    "versesCount": 7
+    "versesCount": 7,
+    "surahNumber": 1
   },
-  "2": {
+  {
     "endPage": 49,
     "startPage": 2,
     "revelationPlace": "madinah",
     "surahName": "البقرة",
-    "versesCount": 286
+    "versesCount": 286,
+    "surahNumber": 2
   },
-  "3": {
+  {
     "endPage": 76,
     "startPage": 50,
     "revelationPlace": "madinah",
     "surahName": "آل عمران",
     "versesCount": 200,
-    "translatedName": "آل عمران"
+    "translatedName": "آل عمران",
+    "surahNumber": 3
   },
-  "4": {
+  {
     "endPage": 106,
     "startPage": 77,
     "revelationPlace": "madinah",
     "surahName": "النساء",
     "versesCount": 176,
-    "translatedName": "النساء"
+    "translatedName": "النساء",
+    "surahNumber": 4
   },
-  "5": {
+  {
     "endPage": 127,
     "startPage": 106,
     "revelationPlace": "madinah",
     "surahName": "المائدة",
     "versesCount": 120,
-    "translatedName": "المائدة"
+    "translatedName": "المائدة",
+    "surahNumber": 5
   },
-  "6": {
+  {
     "endPage": 150,
     "startPage": 128,
     "revelationPlace": "makkah",
     "surahName": "الأنعام",
     "versesCount": 165,
-    "translatedName": "الأنعام"
+    "translatedName": "الأنعام",
+    "surahNumber": 6
   },
-  "7": {
+  {
     "endPage": 176,
     "startPage": 151,
     "revelationPlace": "makkah",
     "surahName": "الأعراف",
     "versesCount": 206,
-    "translatedName": "الأعراف"
+    "translatedName": "الأعراف",
+    "surahNumber": 7
   },
-  "8": {
+  {
     "endPage": 186,
     "startPage": 177,
     "revelationPlace": "madinah",
     "surahName": "الأنفال",
     "versesCount": 75,
-    "translatedName": "الأنفال"
+    "translatedName": "الأنفال",
+    "surahNumber": 8
   },
-  "9": {
+  {
     "endPage": 207,
     "startPage": 187,
     "revelationPlace": "madinah",
     "surahName": "التوبة",
-    "versesCount": 129
+    "versesCount": 129,
+    "surahNumber": 9
   },
-  "10": {
+  {
     "endPage": 221,
     "startPage": 208,
     "revelationPlace": "makkah",
     "surahName": "يونس",
-    "versesCount": 109
+    "versesCount": 109,
+    "surahNumber": 10
   },
-  "11": {
+  {
     "endPage": 235,
     "startPage": 221,
     "revelationPlace": "makkah",
     "surahName": "هود",
-    "versesCount": 123
+    "versesCount": 123,
+    "surahNumber": 11
   },
-  "12": {
+  {
     "endPage": 248,
     "startPage": 235,
     "revelationPlace": "makkah",
     "surahName": "يوسف",
-    "versesCount": 111
+    "versesCount": 111,
+    "surahNumber": 12
   },
-  "13": {
+  {
     "endPage": 255,
     "startPage": 249,
     "revelationPlace": "madinah",
     "surahName": "الرعد",
-    "versesCount": 43
+    "versesCount": 43,
+    "surahNumber": 13
   },
-  "14": {
+  {
     "endPage": 261,
     "startPage": 255,
     "revelationPlace": "makkah",
     "surahName": "ابراهيم",
-    "versesCount": 52
+    "versesCount": 52,
+    "surahNumber": 14
   },
-  "15": {
+  {
     "endPage": 267,
     "startPage": 262,
     "revelationPlace": "makkah",
     "surahName": "الحجر",
-    "versesCount": 99
+    "versesCount": 99,
+    "surahNumber": 15
   },
-  "16": {
+  {
     "endPage": 281,
     "startPage": 267,
     "revelationPlace": "makkah",
     "surahName": "النحل",
-    "versesCount": 128
+    "versesCount": 128,
+    "surahNumber": 16
   },
-  "17": {
+  {
     "endPage": 293,
     "startPage": 282,
     "revelationPlace": "makkah",
     "surahName": "الإسراء",
     "versesCount": 111,
-    "translatedName": "الإسراء"
+    "translatedName": "الإسراء",
+    "surahNumber": 17
   },
-  "18": {
+  {
     "endPage": 304,
     "startPage": 293,
     "revelationPlace": "makkah",
     "surahName": "الكهف",
-    "versesCount": 110
+    "versesCount": 110,
+    "surahNumber": 18
   },
-  "19": {
+  {
     "endPage": 312,
     "startPage": 305,
     "revelationPlace": "makkah",
     "surahName": "مريم",
-    "versesCount": 98
+    "versesCount": 98,
+    "surahNumber": 19
   },
-  "20": {
+  {
     "endPage": 321,
     "startPage": 312,
     "revelationPlace": "makkah",
     "surahName": "طه",
-    "versesCount": 135
+    "versesCount": 135,
+    "surahNumber": 20
   },
-  "21": {
+  {
     "endPage": 331,
     "startPage": 322,
     "revelationPlace": "makkah",
     "surahName": "الأنبياء",
     "versesCount": 112,
-    "translatedName": "الأنبياء"
+    "translatedName": "الأنبياء",
+    "surahNumber": 21
   },
-  "22": {
+  {
     "endPage": 341,
     "startPage": 332,
     "revelationPlace": "madinah",
     "surahName": "الحج",
-    "versesCount": 78
+    "versesCount": 78,
+    "surahNumber": 22
   },
-  "23": {
+  {
     "endPage": 349,
     "startPage": 342,
     "revelationPlace": "makkah",
     "surahName": "المؤمنون",
     "versesCount": 118,
-    "translatedName": "المؤمنون"
+    "translatedName": "المؤمنون",
+    "surahNumber": 23
   },
-  "24": {
+  {
     "endPage": 359,
     "startPage": 350,
     "revelationPlace": "madinah",
     "surahName": "النور",
-    "versesCount": 64
+    "versesCount": 64,
+    "surahNumber": 24
   },
-  "25": {
+  {
     "endPage": 366,
     "startPage": 359,
     "revelationPlace": "makkah",
     "surahName": "الفرقان",
-    "versesCount": 77
+    "versesCount": 77,
+    "surahNumber": 25
   },
-  "26": {
+  {
     "endPage": 376,
     "startPage": 367,
     "revelationPlace": "makkah",
     "surahName": "الشعراء",
     "versesCount": 227,
-    "translatedName": "الشعراء"
+    "translatedName": "الشعراء",
+    "surahNumber": 26
   },
-  "27": {
+  {
     "endPage": 385,
     "startPage": 377,
     "revelationPlace": "makkah",
     "surahName": "النمل",
-    "versesCount": 93
+    "versesCount": 93,
+    "surahNumber": 27
   },
-  "28": {
+  {
     "endPage": 396,
     "startPage": 385,
     "revelationPlace": "makkah",
     "surahName": "القصص",
-    "versesCount": 88
+    "versesCount": 88,
+    "surahNumber": 28
   },
-  "29": {
+  {
     "endPage": 404,
     "startPage": 396,
     "revelationPlace": "makkah",
     "surahName": "العنكبوت",
-    "versesCount": 69
+    "versesCount": 69,
+    "surahNumber": 29
   },
-  "30": {
+  {
     "endPage": 410,
     "startPage": 404,
     "revelationPlace": "makkah",
     "surahName": "الروم",
-    "versesCount": 60
+    "versesCount": 60,
+    "surahNumber": 30
   },
-  "31": {
+  {
     "endPage": 414,
     "startPage": 411,
     "revelationPlace": "makkah",
     "surahName": "لقمان",
-    "versesCount": 34
+    "versesCount": 34,
+    "surahNumber": 31
   },
-  "32": {
+  {
     "endPage": 417,
     "startPage": 415,
     "revelationPlace": "makkah",
     "surahName": "السجدة",
-    "versesCount": 30
+    "versesCount": 30,
+    "surahNumber": 32
   },
-  "33": {
+  {
     "endPage": 427,
     "startPage": 418,
     "revelationPlace": "madinah",
     "surahName": "الأحزاب",
     "versesCount": 73,
-    "translatedName": "الأحزاب"
+    "translatedName": "الأحزاب",
+    "surahNumber": 33
   },
-  "34": {
+  {
     "endPage": 434,
     "startPage": 428,
     "revelationPlace": "makkah",
     "surahName": "سبإ",
     "versesCount": 54,
-    "translatedName": "سبإ"
+    "translatedName": "سبإ",
+    "surahNumber": 34
   },
-  "35": {
+  {
     "endPage": 440,
     "startPage": 434,
     "revelationPlace": "makkah",
     "surahName": "فاطر",
-    "versesCount": 45
+    "versesCount": 45,
+    "surahNumber": 35
   },
-  "36": {
+  {
     "endPage": 445,
     "startPage": 440,
     "revelationPlace": "makkah",
     "surahName": "يس",
-    "versesCount": 83
+    "versesCount": 83,
+    "surahNumber": 36
   },
-  "37": {
+  {
     "endPage": 452,
     "startPage": 446,
     "revelationPlace": "makkah",
     "surahName": "الصافات",
-    "versesCount": 182
+    "versesCount": 182,
+    "surahNumber": 37
   },
-  "38": {
+  {
     "endPage": 458,
     "startPage": 453,
     "revelationPlace": "makkah",
     "surahName": "ص",
-    "versesCount": 88
+    "versesCount": 88,
+    "surahNumber": 38
   },
-  "39": {
+  {
     "endPage": 467,
     "startPage": 458,
     "revelationPlace": "makkah",
     "surahName": "الزمر",
-    "versesCount": 75
+    "versesCount": 75,
+    "surahNumber": 39
   },
-  "40": {
+  {
     "endPage": 476,
     "startPage": 467,
     "revelationPlace": "makkah",
     "surahName": "غافر",
-    "versesCount": 85
+    "versesCount": 85,
+    "surahNumber": 40
   },
-  "41": {
+  {
     "endPage": 482,
     "startPage": 477,
     "revelationPlace": "makkah",
     "surahName": "فصلت",
-    "versesCount": 54
+    "versesCount": 54,
+    "surahNumber": 41
   },
-  "42": {
+  {
     "endPage": 489,
     "startPage": 483,
     "revelationPlace": "makkah",
     "surahName": "الشورى",
-    "versesCount": 53
+    "versesCount": 53,
+    "surahNumber": 42
   },
-  "43": {
+  {
     "endPage": 495,
     "startPage": 489,
     "revelationPlace": "makkah",
     "surahName": "الزخرف",
-    "versesCount": 89
+    "versesCount": 89,
+    "surahNumber": 43
   },
-  "44": {
+  {
     "endPage": 498,
     "startPage": 496,
     "revelationPlace": "makkah",
     "surahName": "الدخان",
-    "versesCount": 59
+    "versesCount": 59,
+    "surahNumber": 44
   },
-  "45": {
+  {
     "endPage": 502,
     "startPage": 499,
     "revelationPlace": "makkah",
     "surahName": "الجاثية",
-    "versesCount": 37
+    "versesCount": 37,
+    "surahNumber": 45
   },
-  "46": {
+  {
     "endPage": 506,
     "startPage": 502,
     "revelationPlace": "makkah",
     "surahName": "الأحقاف",
     "versesCount": 35,
-    "translatedName": "الأحقاف"
+    "translatedName": "الأحقاف",
+    "surahNumber": 46
   },
-  "47": {
+  {
     "endPage": 510,
     "startPage": 507,
     "revelationPlace": "madinah",
     "surahName": "محمد",
-    "versesCount": 38
+    "versesCount": 38,
+    "surahNumber": 47
   },
-  "48": {
+  {
     "endPage": 515,
     "startPage": 511,
     "revelationPlace": "madinah",
     "surahName": "الفتح",
-    "versesCount": 29
+    "versesCount": 29,
+    "surahNumber": 48
   },
-  "49": {
+  {
     "endPage": 517,
     "startPage": 515,
     "revelationPlace": "madinah",
     "surahName": "الحجرات",
-    "versesCount": 18
+    "versesCount": 18,
+    "surahNumber": 49
   },
-  "50": {
+  {
     "endPage": 520,
     "startPage": 518,
     "revelationPlace": "makkah",
     "surahName": "ق",
-    "versesCount": 45
+    "versesCount": 45,
+    "surahNumber": 50
   },
-  "51": {
+  {
     "endPage": 523,
     "startPage": 520,
     "revelationPlace": "makkah",
     "surahName": "الذاريات",
-    "versesCount": 60
+    "versesCount": 60,
+    "surahNumber": 51
   },
-  "52": {
+  {
     "endPage": 525,
     "startPage": 523,
     "revelationPlace": "makkah",
     "surahName": "الطور",
-    "versesCount": 49
+    "versesCount": 49,
+    "surahNumber": 52
   },
-  "53": {
+  {
     "endPage": 528,
     "startPage": 526,
     "revelationPlace": "makkah",
     "surahName": "النجم",
-    "versesCount": 62
+    "versesCount": 62,
+    "surahNumber": 53
   },
-  "54": {
+  {
     "endPage": 531,
     "startPage": 528,
     "revelationPlace": "makkah",
     "surahName": "القمر",
-    "versesCount": 55
+    "versesCount": 55,
+    "surahNumber": 54
   },
-  "55": {
+  {
     "endPage": 534,
     "startPage": 531,
     "revelationPlace": "madinah",
     "surahName": "الرحمن",
-    "versesCount": 78
+    "versesCount": 78,
+    "surahNumber": 55
   },
-  "56": {
+  {
     "endPage": 537,
     "startPage": 534,
     "revelationPlace": "makkah",
     "surahName": "الواقعة",
-    "versesCount": 96
+    "versesCount": 96,
+    "surahNumber": 56
   },
-  "57": {
+  {
     "endPage": 541,
     "startPage": 537,
     "revelationPlace": "madinah",
     "surahName": "الحديد",
-    "versesCount": 29
+    "versesCount": 29,
+    "surahNumber": 57
   },
-  "58": {
+  {
     "endPage": 545,
     "startPage": 542,
     "revelationPlace": "madinah",
     "surahName": "المجادلة",
-    "versesCount": 22
+    "versesCount": 22,
+    "surahNumber": 58
   },
-  "59": {
+  {
     "endPage": 548,
     "startPage": 545,
     "revelationPlace": "madinah",
     "surahName": "الحشر",
-    "versesCount": 24
+    "versesCount": 24,
+    "surahNumber": 59
   },
-  "60": {
+  {
     "endPage": 551,
     "startPage": 549,
     "revelationPlace": "madinah",
     "surahName": "الممتحنة",
-    "versesCount": 13
+    "versesCount": 13,
+    "surahNumber": 60
   },
-  "61": {
+  {
     "endPage": 552,
     "startPage": 551,
     "revelationPlace": "madinah",
     "surahName": "الصف",
-    "versesCount": 14
+    "versesCount": 14,
+    "surahNumber": 61
   },
-  "62": {
+  {
     "endPage": 554,
     "startPage": 553,
     "revelationPlace": "madinah",
     "surahName": "الجمعة",
-    "versesCount": 11
+    "versesCount": 11,
+    "surahNumber": 62
   },
-  "63": {
+  {
     "endPage": 555,
     "startPage": 554,
     "revelationPlace": "madinah",
     "surahName": "المنافقون",
-    "versesCount": 11
+    "versesCount": 11,
+    "surahNumber": 63
   },
-  "64": {
+  {
     "endPage": 557,
     "startPage": 556,
     "revelationPlace": "madinah",
     "surahName": "التغابن",
-    "versesCount": 18
+    "versesCount": 18,
+    "surahNumber": 64
   },
-  "65": {
+  {
     "endPage": 559,
     "startPage": 558,
     "revelationPlace": "madinah",
     "surahName": "الطلاق",
-    "versesCount": 12
+    "versesCount": 12,
+    "surahNumber": 65
   },
-  "66": {
+  {
     "endPage": 561,
     "startPage": 560,
     "revelationPlace": "madinah",
     "surahName": "التحريم",
-    "versesCount": 12
+    "versesCount": 12,
+    "surahNumber": 66
   },
-  "67": {
+  {
     "endPage": 564,
     "startPage": 562,
     "revelationPlace": "makkah",
     "surahName": "الملك",
-    "versesCount": 30
+    "versesCount": 30,
+    "surahNumber": 67
   },
-  "68": {
+  {
     "endPage": 566,
     "startPage": 564,
     "revelationPlace": "makkah",
     "surahName": "القلم",
-    "versesCount": 52
+    "versesCount": 52,
+    "surahNumber": 68
   },
-  "69": {
+  {
     "endPage": 568,
     "startPage": 566,
     "revelationPlace": "makkah",
     "surahName": "الحاقة",
-    "versesCount": 52
+    "versesCount": 52,
+    "surahNumber": 69
   },
-  "70": {
+  {
     "endPage": 570,
     "startPage": 568,
     "revelationPlace": "makkah",
     "surahName": "المعارج",
-    "versesCount": 44
+    "versesCount": 44,
+    "surahNumber": 70
   },
-  "71": {
+  {
     "endPage": 571,
     "startPage": 570,
     "revelationPlace": "makkah",
     "surahName": "نوح",
-    "versesCount": 28
+    "versesCount": 28,
+    "surahNumber": 71
   },
-  "72": {
+  {
     "endPage": 573,
     "startPage": 572,
     "revelationPlace": "makkah",
     "surahName": "الجن",
-    "versesCount": 28
+    "versesCount": 28,
+    "surahNumber": 72
   },
-  "73": {
+  {
     "endPage": 575,
     "startPage": 574,
     "revelationPlace": "makkah",
     "surahName": "المزمل",
-    "versesCount": 20
+    "versesCount": 20,
+    "surahNumber": 73
   },
-  "74": {
+  {
     "endPage": 577,
     "startPage": 575,
     "revelationPlace": "makkah",
     "surahName": "المدثر",
-    "versesCount": 56
+    "versesCount": 56,
+    "surahNumber": 74
   },
-  "75": {
+  {
     "endPage": 578,
     "startPage": 577,
     "revelationPlace": "makkah",
     "surahName": "القيامة",
-    "versesCount": 40
+    "versesCount": 40,
+    "surahNumber": 75
   },
-  "76": {
+  {
     "endPage": 580,
     "startPage": 578,
     "revelationPlace": "madinah",
     "surahName": "الانسان",
-    "versesCount": 31
+    "versesCount": 31,
+    "surahNumber": 76
   },
-  "77": {
+  {
     "endPage": 581,
     "startPage": 580,
     "revelationPlace": "makkah",
     "surahName": "المرسلات",
-    "versesCount": 50
+    "versesCount": 50,
+    "surahNumber": 77
   },
-  "78": {
+  {
     "endPage": 583,
     "startPage": 582,
     "revelationPlace": "makkah",
     "surahName": "النبإ",
     "versesCount": 40,
-    "translatedName": "النبإ"
+    "translatedName": "النبإ",
+    "surahNumber": 78
   },
-  "79": {
+  {
     "endPage": 584,
     "startPage": 583,
     "revelationPlace": "makkah",
     "surahName": "النازعات",
-    "versesCount": 46
+    "versesCount": 46,
+    "surahNumber": 79
   },
-  "80": {
+  {
     "endPage": 585,
     "startPage": 585,
     "revelationPlace": "makkah",
     "surahName": "عبس",
-    "versesCount": 42
+    "versesCount": 42,
+    "surahNumber": 80
   },
-  "81": {
+  {
     "endPage": 586,
     "startPage": 586,
     "revelationPlace": "makkah",
     "surahName": "التكوير",
-    "versesCount": 29
+    "versesCount": 29,
+    "surahNumber": 81
   },
-  "82": {
+  {
     "endPage": 587,
     "startPage": 587,
     "revelationPlace": "makkah",
     "surahName": "الإنفطار",
     "versesCount": 19,
-    "translatedName": "الإنفطار"
+    "translatedName": "الإنفطار",
+    "surahNumber": 82
   },
-  "83": {
+  {
     "endPage": 589,
     "startPage": 587,
     "revelationPlace": "makkah",
     "surahName": "المطففين",
-    "versesCount": 36
+    "versesCount": 36,
+    "surahNumber": 83
   },
-  "84": {
+  {
     "endPage": 589,
     "startPage": 589,
     "revelationPlace": "makkah",
     "surahName": "الإنشقاق",
     "versesCount": 25,
-    "translatedName": "الإنشقاق"
+    "translatedName": "الإنشقاق",
+    "surahNumber": 84
   },
-  "85": {
+  {
     "endPage": 590,
     "startPage": 590,
     "revelationPlace": "makkah",
     "surahName": "البروج",
-    "versesCount": 22
+    "versesCount": 22,
+    "surahNumber": 85
   },
-  "86": {
+  {
     "endPage": 591,
     "startPage": 591,
     "revelationPlace": "makkah",
     "surahName": "الطارق",
-    "versesCount": 17
+    "versesCount": 17,
+    "surahNumber": 86
   },
-  "87": {
+  {
     "endPage": 592,
     "startPage": 591,
     "revelationPlace": "makkah",
     "surahName": "الأعلى",
     "versesCount": 19,
-    "translatedName": "الأعلى"
+    "translatedName": "الأعلى",
+    "surahNumber": 87
   },
-  "88": {
+  {
     "endPage": 592,
     "startPage": 592,
     "revelationPlace": "makkah",
     "surahName": "الغاشية",
-    "versesCount": 26
+    "versesCount": 26,
+    "surahNumber": 88
   },
-  "89": {
+  {
     "endPage": 594,
     "startPage": 593,
     "revelationPlace": "makkah",
     "surahName": "الفجر",
-    "versesCount": 30
+    "versesCount": 30,
+    "surahNumber": 89
   },
-  "90": {
+  {
     "endPage": 594,
     "startPage": 594,
     "revelationPlace": "makkah",
     "surahName": "البلد",
-    "versesCount": 20
+    "versesCount": 20,
+    "surahNumber": 90
   },
-  "91": {
+  {
     "endPage": 595,
     "startPage": 595,
     "revelationPlace": "makkah",
     "surahName": "الشمس",
-    "versesCount": 15
+    "versesCount": 15,
+    "surahNumber": 91
   },
-  "92": {
+  {
     "endPage": 596,
     "startPage": 595,
     "revelationPlace": "makkah",
     "surahName": "الليل",
-    "versesCount": 21
+    "versesCount": 21,
+    "surahNumber": 92
   },
-  "93": {
+  {
     "endPage": 596,
     "startPage": 596,
     "revelationPlace": "makkah",
     "surahName": "الضحى",
-    "versesCount": 11
+    "versesCount": 11,
+    "surahNumber": 93
   },
-  "94": {
+  {
     "endPage": 596,
     "startPage": 596,
     "revelationPlace": "makkah",
     "surahName": "الشرح",
-    "versesCount": 8
+    "versesCount": 8,
+    "surahNumber": 94
   },
-  "95": {
+  {
     "endPage": 597,
     "startPage": 597,
     "revelationPlace": "makkah",
     "surahName": "التين",
-    "versesCount": 8
+    "versesCount": 8,
+    "surahNumber": 95
   },
-  "96": {
+  {
     "endPage": 597,
     "startPage": 597,
     "revelationPlace": "makkah",
     "surahName": "العلق",
-    "versesCount": 19
+    "versesCount": 19,
+    "surahNumber": 96
   },
-  "97": {
+  {
     "endPage": 598,
     "startPage": 598,
     "revelationPlace": "makkah",
     "surahName": "القدر",
-    "versesCount": 5
+    "versesCount": 5,
+    "surahNumber": 97
   },
-  "98": {
+  {
     "endPage": 599,
     "startPage": 598,
     "revelationPlace": "madinah",
     "surahName": "البينة",
-    "versesCount": 8
+    "versesCount": 8,
+    "surahNumber": 98
   },
-  "99": {
+  {
     "endPage": 599,
     "startPage": 599,
     "revelationPlace": "madinah",
     "surahName": "الزلزلة",
-    "versesCount": 8
+    "versesCount": 8,
+    "surahNumber": 99
   },
-  "100": {
+  {
     "endPage": 600,
     "startPage": 599,
     "revelationPlace": "makkah",
     "surahName": "العاديات",
-    "versesCount": 11
+    "versesCount": 11,
+    "surahNumber": 100
   },
-  "101": {
+  {
     "endPage": 600,
     "startPage": 600,
     "revelationPlace": "makkah",
     "surahName": "القارعة",
-    "versesCount": 11
+    "versesCount": 11,
+    "surahNumber": 101
   },
-  "102": {
+  {
     "endPage": 600,
     "startPage": 600,
     "revelationPlace": "makkah",
     "surahName": "التكاثر",
-    "versesCount": 8
+    "versesCount": 8,
+    "surahNumber": 102
   },
-  "103": {
+  {
     "endPage": 601,
     "startPage": 601,
     "revelationPlace": "makkah",
     "surahName": "العصر",
-    "versesCount": 3
+    "versesCount": 3,
+    "surahNumber": 103
   },
-  "104": {
+  {
     "endPage": 601,
     "startPage": 601,
     "revelationPlace": "makkah",
     "surahName": "الهمزة",
-    "versesCount": 9
+    "versesCount": 9,
+    "surahNumber": 104
   },
-  "105": {
+  {
     "endPage": 601,
     "startPage": 601,
     "revelationPlace": "makkah",
     "surahName": "الفيل",
-    "versesCount": 5
+    "versesCount": 5,
+    "surahNumber": 105
   },
-  "106": {
+  {
     "endPage": 602,
     "startPage": 602,
     "revelationPlace": "makkah",
     "surahName": "قريش",
-    "versesCount": 4
+    "versesCount": 4,
+    "surahNumber": 106
   },
-  "107": {
+  {
     "endPage": 602,
     "startPage": 602,
     "revelationPlace": "makkah",
     "surahName": "الماعون",
-    "versesCount": 7
+    "versesCount": 7,
+    "surahNumber": 107
   },
-  "108": {
+  {
     "endPage": 602,
     "startPage": 602,
     "revelationPlace": "makkah",
     "surahName": "الكوثر",
-    "versesCount": 3
+    "versesCount": 3,
+    "surahNumber": 108
   },
-  "109": {
+  {
     "endPage": 603,
     "startPage": 603,
     "revelationPlace": "makkah",
     "surahName": "الكافرون",
-    "versesCount": 6
+    "versesCount": 6,
+    "surahNumber": 109
   },
-  "110": {
+  {
     "endPage": 603,
     "startPage": 603,
     "revelationPlace": "madinah",
     "surahName": "النصر",
-    "versesCount": 3
+    "versesCount": 3,
+    "surahNumber": 110
   },
-  "111": {
+  {
     "endPage": 603,
     "startPage": 603,
     "revelationPlace": "makkah",
     "surahName": "المسد",
-    "versesCount": 5
+    "versesCount": 5,
+    "surahNumber": 111
   },
-  "112": {
+  {
     "endPage": 604,
     "startPage": 604,
     "revelationPlace": "makkah",
     "surahName": "الإخلاص",
     "versesCount": 4,
-    "translatedName": "الإخلاص"
+    "translatedName": "الإخلاص",
+    "surahNumber": 112
   },
-  "113": {
+  {
     "endPage": 604,
     "startPage": 604,
     "revelationPlace": "makkah",
     "surahName": "الفلق",
-    "versesCount": 5
+    "versesCount": 5,
+    "surahNumber": 113
   },
-  "114": {
+  {
     "endPage": 604,
     "startPage": 604,
     "revelationPlace": "makkah",
     "surahName": "الناس",
-    "versesCount": 6
+    "versesCount": 6,
+    "surahNumber": 114
   }
-}
+]
