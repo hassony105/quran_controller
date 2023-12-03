@@ -6,7 +6,7 @@ void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-      body: QuranSurahView(/*surahNumber: 2,*/ juzNumber: 30,),
+      body: QuranSurahView(surahNumber: 1, /*juzNumber: 30,*/),
     ),
   ));
 }

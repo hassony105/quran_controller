@@ -92,7 +92,7 @@ class _QuranSurahViewState extends State<QuranSurahView> {
 
   List<Widget> versesGenerator(){
     List<Widget> result = [];
-    for(int index=0; index<(juz.verses??[]).length; index++) {
+    for(int index=0; index<(surah.verses??[]).length; index++) {
         result.add(Directionality(
           textDirection: TextDirection.rtl,
           child: Container(
@@ -105,9 +105,9 @@ class _QuranSurahViewState extends State<QuranSurahView> {
             child: ListTile(
               key: ValueKey(index),
               title: Text(
-                juz.verses![index].fullVerse??'',
+                surah.verses![index].fullVerse??'',
                 textAlign: TextAlign.start,
-                style: TextStyle(fontSize: 25, fontFamily: juz.verses![index].font),
+                style: TextStyle(fontSize: 25, fontFamily: surah.verses![index].font),
               ),
               // subtitle: VerseToolsWidget(surah: widget.surahNumber,verse: index+1, bookmark: ()=> bookmark(widget.surahNumber, index+1, context).then((value) => setState(() {})), isBookmarked: isBookmarked(widget.surahNumber, index+1),)),
             ),

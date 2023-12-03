@@ -58,7 +58,7 @@ class VersesService{
   static List<Verse> _filteringVersesBySurahNumber(List<Verse> verses, int surahNumber){
     List<Verse> filtered = [];
     for (var i = 0; i < verses.length; i++) {
-      if(!verses[i].verseKey!.startsWith('$surahNumber')){
+      if(!(verses[i].verseKey??'').startsWith('$surahNumber')){
         continue;
       }
       filtered.add(verses[i]);
