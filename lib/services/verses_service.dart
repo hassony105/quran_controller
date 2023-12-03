@@ -1,49 +1,89 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:quran_controller/models/surah.dart';
-import 'package:quran_controller/services/services.dart';
-// import 'package:path_provider/path_provider.dart';
-
-import '../models/verse.dart';
-
+import 'package:quran_controller/quran_controller.dart';
+import '/models/models.dart';
+import '/services/services.dart';
+Verse basmalaVerse = Verse(words: [VerseWord(codeV1: '\u003B'),VerseWord(codeV1: '\u003C'),VerseWord(codeV1: '\u003D'),VerseWord(codeV1: '\u003E'),], font: QuranController.basmalaAndSurahsNameFontsFamily);
 class VersesService{
-  // final int pageNumber;
-
-  // VersesService(this.pageNumber);
-
-  static Future<List<Verse>> gettingVersesByPageNumber(int pageNumber) async {
+  static Future<VersesByPage> gettingVersesByPageNumber(int pageNumber) async {
     try{
       List<Verse> verses = [];
 
-      String data = await rootBundle.loadString(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\verses\\$pageNumber.json'*/'packages/quran_controller/assets/verses/$pageNumber.json');
+      String data = await rootBundle.loadString('packages/quran_controller/assets/verses/$pageNumber.json');
       final body = json.decode(data);
       for (var item in body) {
         verses.add(Verse.fromJson(item));
+        if(verses.last.verseNumber == 1) verses.insert(verses.length-1, basmalaVerse);
       }
-      await FontLoaderService(pageNumber: pageNumber).loadFonts();
-      return verses;
+      FontLoaderService fontLoaderService = FontLoaderService(pageNumber: pageNumber);
+      await fontLoaderService.loadFonts();
+
+      // for (var i = 1; i < verses.length; i++) {
+      //   if(verses[i].surahNumber > verses[i-1].surahNumber){
+      //     verses.insert(i, basmalaVerse);
+      //     i++;
+      //   }
+      // }
+      return VersesByPage(verses: verses, font: fontLoaderService.fontFamily);
     }catch(e){
       rethrow;
     }
   }
 
-  static Future<List<Verse>> gettingVersesBySurahNumber(int surahNumber) async {
+  static Future<Surah> gettingVersesBySurahNumber(int surahNumber) async {
     try{
       List<Surah> surahs = [];
-      String data = await rootBundle.loadString(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\surah\\surah.json'*/'packages/quran_controller/assets/surah/surahs.json');
+      String data = await rootBundle.loadString('packages/quran_controller/assets/surah/surahs.json');
       final body = json.decode(data);
-      for (var item in body) {
-        surahs.add(Surah.fromJson(item));
+      for (var item in body.keys) {
+        surahs.add(Surah.fromJson(body[item]));
       }
       Surah selectedSurah = surahs[surahNumber-1];
+      selectedSurah.verses = [];
       for (var i = selectedSurah.startPage; i! <= selectedSurah.endPage!; i++) {
-        selectedSurah.verses = (selectedSurah.verses ?? []) + await gettingVersesByPageNumber(i);
-        if(i == selectedSurah.endPage){
-          print(i);
+        VersesByPage versesByPage = await gettingVersesByPageNumber(i);
+        if(i == selectedSurah.startPage || i == selectedSurah.endPage){
+          selectedSurah.verses?.addAll(_filteringVersesBySurahNumber(versesByPage.verses, surahNumber));
+        } else {
+          selectedSurah.verses?.addAll(versesByPage.verses);
         }
       }
-      return selectedSurah.verses ?? [];
+      return selectedSurah;
+    }catch(e){
+      rethrow;
+    }
+  }
+
+  static List<Verse> _filteringVersesBySurahNumber(List<Verse> verses, int surahNumber){
+    List<Verse> filtered = [];
+    for (var i = 0; i < verses.length; i++) {
+      if(!verses[i].verseKey!.startsWith('$surahNumber')){
+        continue;
+      }
+      filtered.add(verses[i]);
+    }
+    return filtered;
+  }
+
+  static Future<Juz> gettingVersesByJuzNumber(int juzNumber) async {
+    try{
+      List<Juz> juzs = [];
+
+      String data = await rootBundle.loadString('packages/quran_controller/assets/surah/juzs.json');
+      final body = json.decode(data);
+      for (var item in body) {
+        juzs.add(Juz.fromJson(item));
+      }
+      Juz selectedJuz = juzs[juzNumber-1];
+      selectedJuz;
+      for (var i = selectedJuz.startPage; i! <= selectedJuz.endPage!; i++) {
+        VersesByPage versesByPage = await gettingVersesByPageNumber(i);
+        if(i == selectedJuz.startPage || i == selectedJuz.endPage) versesByPage.verses = versesByPage.verses.where((element) => element.juzNumber == selectedJuz.juzNumber).toList();
+        selectedJuz.verses?.addAll(versesByPage.verses);
+      }
+      return selectedJuz;
+
     }catch(e){
       rethrow;
     }

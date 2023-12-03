@@ -9,7 +9,7 @@ void main() {
     WidgetsFlutterBinding.ensureInitialized();
     QuranController quranController = QuranController(pageNumber: 1);
     await quranController.initializing();
-    expect(quranController.verses.length, 7);
+    expect(quranController.verses.verses?.length, 7);
     // final calculator = Calculator();
     // expect(calculator.addOne(2), 3);
     // expect(calculator.addOne(-7), -6);

@@ -16,7 +16,7 @@ class Surah{
     revelationPlace = data['revelationPlace'];
     startPage = data['startPage'];
     endPage = data['endPage'];
-    verses = data['verses'].map((e)=> Verse.fromJson(e)).toList();
+    verses = data['verses'] != null?[for(var item in data['verses']) Verse.fromJson(item)]:[];
   }
 
   Map<String, dynamic> toJson(){
@@ -27,7 +27,7 @@ class Surah{
     data['revelationPlace'] = revelationPlace;
     data['startPage'] = startPage;
     data['endPage'] = endPage;
-    data['verses'] = verses?.map((e) => e.toJson()).toList();
+    data['verse'] = verses?.map((e) => e.toJson()).toList();
 
     return data;
   }

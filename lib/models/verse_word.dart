@@ -11,18 +11,7 @@ class VerseWord {
   int? lineNumber;
   String? text;
 
-  VerseWord(
-      {this.id,
-        this.position,
-        this.audioUrl,
-        this.verseKey,
-        this.verseId,
-        this.location,
-        this.codeV1,
-        this.charTypeName,
-        this.pageNumber,
-        this.lineNumber,
-        this.text});
+  VerseWord({this.id, this.position, this.audioUrl, this.verseKey, this.verseId, this.location, this.codeV1, this.charTypeName, this.pageNumber, this.lineNumber, this.text});
 
   VerseWord.fromJson(Map<String, dynamic> data) {
     id = data['id'];

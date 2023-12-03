@@ -13,9 +13,11 @@ class Verse {
   int? pageNumber;
   int? juzNumber;
   List<VerseWord>? words;
+  String? font;
   String? get fullVerse => words!.map((e) => e.codeV1).join(' ');
+  int get surahNumber => int.parse((verseKey??'0').split(':').first);
 
-  Verse({this.id, this.verseNumber, this.verseKey, this.hizbNumber, this.rubElHizbNumber, this.rukuNumber, this.manzilNumber, this.sajdahNumber, this.textImlaeiSimple, this.pageNumber, this.juzNumber, this.words});
+  Verse({this.id, this.verseNumber, this.verseKey, this.hizbNumber, this.rubElHizbNumber, this.rukuNumber, this.manzilNumber, this.sajdahNumber, this.textImlaeiSimple, this.pageNumber, this.juzNumber, this.words, this.font});
 
   Verse.fromJson(Map<String, dynamic> data) {
     id = data['id'];
@@ -29,6 +31,7 @@ class Verse {
     textImlaeiSimple = data['text_imlaei_simple'];
     pageNumber = data['page_number'];
     juzNumber = data['juz_number'];
+    font = data['font'];
     if (data['words'] != null) {
       words = [];
       data['words'].forEach((v) {
@@ -50,6 +53,7 @@ class Verse {
     data['text_imlaei_simple'] = textImlaeiSimple;
     data['page_number'] = pageNumber;
     data['juz_number'] = juzNumber;
+    data['font'] = font;
     if (words != null) {
       data['words'] = words!.map((v) => v.toJson()).toList();
     }

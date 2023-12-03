@@ -3,21 +3,25 @@ import 'package:flutter/services.dart' show FontLoader, rootBundle;
 
 class FontLoaderService {
   final int _pageNumber;
+  final String fontFamily;
+  static const String basmalaAndSurahsNameFontsFamily = 'QCF_BSML.TTF';
 
   String get _fontNumber {
     String pageNumber = '$_pageNumber'.padLeft(3, '0');
     return pageNumber;
   }
 
-  static String fontFamily = 'QuranCustomFont';
-
-  FontLoaderService({required int pageNumber}) : _pageNumber = pageNumber;
+  FontLoaderService({required int pageNumber}) : _pageNumber = pageNumber, fontFamily='QCF_P$pageNumber';
 
   Future<void> loadFonts() async {
     FontLoader fontLoader = FontLoader(fontFamily);
-    // var myPackageDir = await getApplicationDocumentsDirectory();
-    // var myPackagePath = myPackageDir.path;
-    fontLoader.addFont(rootBundle.load(/*'C:\\Users\\Phoenix\\StudioProjects\\quran_controller\\assets\\fonts\\QCF_P$_fontNumber.TTF'*/'packages/quran_controller/assets/fonts/QCF_P$_fontNumber.TTF'));
+    fontLoader.addFont(rootBundle.load('packages/quran_controller/assets/fonts/QCF_P$_fontNumber.TTF'));
+    await fontLoader.load();
+  }
+
+  static Future<void> loadBasmalaAndSurahsNameFonts() async {
+    FontLoader fontLoader = FontLoader(basmalaAndSurahsNameFontsFamily);
+    fontLoader.addFont(rootBundle.load('packages/quran_controller/assets/fonts/$basmalaAndSurahsNameFontsFamily'));
     await fontLoader.load();
   }
 

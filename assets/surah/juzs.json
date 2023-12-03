@@ -1,0 +1,212 @@
+[
+  {
+    "juzNumber": 1,
+    "startKey": "1:1",
+    "endKey": "2:141",
+    "startPage": 1,
+    "endPage": 21
+  },
+  {
+    "juzNumber": 2,
+    "startKey": "2:142",
+    "endKey": "2:252",
+    "startPage": 22,
+    "endPage": 41
+  },
+  {
+    "juzNumber": 3,
+    "startKey": "2:253",
+    "endKey": "3:92",
+    "startPage": 42,
+    "endPage": 62
+  },
+  {
+    "juzNumber": 4,
+    "startKey": "3:94",
+    "endKey": "4:23",
+    "startPage": 62,
+    "endPage": 81
+  },
+  {
+    "juzNumber": 5,
+    "startKey": "4:24",
+    "endKey": "4:147",
+    "startPage": 82,
+    "endPage": 101
+  },
+  {
+    "juzNumber": 6,
+    "startKey": "4:148",
+    "endKey": "5:81",
+    "startPage": 102,
+    "endPage": 121
+  },
+  {
+    "juzNumber": 7,
+    "startKey": "5:82",
+    "endKey": "6:110",
+    "startPage": 121,
+    "endPage": 141
+  },
+  {
+    "juzNumber": 8,
+    "startKey": "6:111",
+    "endKey": "7:87",
+    "startPage": 142,
+    "endPage": 161
+  },
+  {
+    "juzNumber": 9,
+    "startKey": "7:88",
+    "endKey": "8:40",
+    "startPage": 162,
+    "endPage": 181
+  },
+  {
+    "juzNumber": 10,
+    "startKey": "8:41",
+    "endKey": "9:92",
+    "startPage": 182,
+    "endPage": 201
+  },
+  {
+    "juzNumber": 11,
+    "startKey": "9:93",
+    "endKey": "11:5",
+    "startPage": 201,
+    "endPage": 221
+  },
+  {
+    "juzNumber": 12,
+    "startKey": "11:6",
+    "endKey": "12:52",
+    "startPage": 222,
+    "endPage": 241
+  },
+  {
+    "juzNumber": 13,
+    "startKey": "12:53",
+    "endKey": "14:52",
+    "startPage": 242,
+    "endPage": 261
+  },
+  {
+    "juzNumber": 14,
+    "startKey": "15:1",
+    "endKey": "16:128",
+    "startPage": 262,
+    "endPage": 281
+  },
+  {
+    "juzNumber": 15,
+    "startKey": "17:1",
+    "endKey": "18:74",
+    "startPage": 282,
+    "endPage": 301
+  },
+  {
+    "juzNumber": 16,
+    "startKey": "18:75",
+    "endKey": "20:135",
+    "startPage": 302,
+    "endPage": 321
+  },
+  {
+    "juzNumber": 17,
+    "startKey": "21:1",
+    "endKey": "22:78",
+    "startPage": 322,
+    "endPage": 341
+  },
+  {
+    "juzNumber": 18,
+    "startKey": "23:1",
+    "endKey": "25:20",
+    "startPage": 342,
+    "endPage": 361
+  },
+  {
+    "juzNumber": 19,
+    "startKey": "25:21",
+    "endKey": "27:55",
+    "startPage": 362,
+    "endPage": 381
+  },
+  {
+    "juzNumber": 20,
+    "startKey": "27:56",
+    "endKey": "29:45",
+    "startPage": 382,
+    "endPage": 401
+  },
+  {
+    "juzNumber": 21,
+    "startKey": "29:46",
+    "endKey": "33:30",
+    "startPage": 402,
+    "endPage": 421
+  },
+  {
+    "juzNumber": 22,
+    "startKey": "33:31",
+    "endKey": "36:27",
+    "startPage": 422,
+    "endPage": 441
+  },
+  {
+    "juzNumber": 23,
+    "startKey": "36:28",
+    "endKey": "39:31",
+    "startPage": 442,
+    "endPage": 461
+  },
+  {
+    "juzNumber": 24,
+    "startKey": "39:32",
+    "endKey": "41:46",
+    "startPage": 462,
+    "endPage": 481
+  },
+  {
+    "juzNumber": 25,
+    "startKey": "41:47",
+    "endKey": "45:37",
+    "startPage": 482,
+    "endPage": 502
+  },
+  {
+    "juzNumber": 26,
+    "startKey": "46:1",
+    "endKey": "51:30",
+    "startPage": 502,
+    "endPage": 521
+  },
+  {
+    "juzNumber": 27,
+    "startKey": "51:31",
+    "endKey": "57:29",
+    "startPage": 522,
+    "endPage": 541
+  },
+  {
+    "juzNumber": 28,
+    "startKey": "58:1",
+    "endKey": "66:12",
+    "startPage": 542,
+    "endPage": 561
+  },
+  {
+    "juzNumber": 29,
+    "startKey": "67:1",
+    "endKey": "77:50",
+    "startPage": 562,
+    "endPage": 581
+  },
+  {
+    "juzNumber": 30,
+    "startKey": "78:1",
+    "endKey": "114:6",
+    "startPage": 582,
+    "endPage": 604
+  }
+]
