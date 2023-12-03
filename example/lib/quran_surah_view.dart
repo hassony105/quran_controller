@@ -49,7 +49,13 @@ class _QuranSurahViewState extends State<QuranSurahView> {
         backgroundColor: Colors.blue,
         centerTitle: true,
         leading: const SizedBox(),
-        title: Text(QuranController.surahText + quranController.getSurahName(widget.surahNumber??1), textDirection: TextDirection.rtl, style: const TextStyle(color: Colors.white, fontFamily: QuranController.basmalaAndSurahsNameFontsFamily)),
+        title: Stack(
+          alignment: Alignment.center,
+          children: [
+            const Text(QuranController.borderText, textDirection: TextDirection.rtl, style: TextStyle(color: Colors.white, fontFamily: QuranController.basmalaAndSurahsNameFontsFamily, fontSize: 35)),
+            Text(QuranController.surahText + quranController.getSurahName(widget.surahNumber??1), textDirection: TextDirection.rtl, style: const TextStyle(color: Colors.white, fontFamily: QuranController.basmalaAndSurahsNameFontsFamily)),
+          ],
+        ),
       ),
       body: SafeArea(
         top: true,

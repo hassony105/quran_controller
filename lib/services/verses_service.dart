@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:quran_controller/quran_controller.dart';
 import '/models/models.dart';
 import '/services/services.dart';
-Verse basmalaVerse = Verse(words: [VerseWord(codeV1: '\u003B'),VerseWord(codeV1: '\u003C'),VerseWord(codeV1: '\u003D'),VerseWord(codeV1: '\u003E'),], font: QuranController.basmalaAndSurahsNameFontsFamily);
+Verse basmalaVerse = Verse(verseNumber: 0, words: [VerseWord(codeV1: '\u003B'),VerseWord(codeV1: '\u003C'),VerseWord(codeV1: '\u003D'),VerseWord(codeV1: '\u003E'),], font: QuranController.basmalaAndSurahsNameFontsFamily);
 class VersesService{
   static Future<VersesByPage> gettingVersesByPageNumber(int pageNumber) async {
     try{

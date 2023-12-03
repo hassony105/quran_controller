@@ -14,6 +14,8 @@ class QuranController{
   List<Surah> surahsDetails = [];
   static const String basmalaText = '\u00F3';
   static const String surahText = '\u005C';
+  static const String borderText = '\u00F2';
+
   static const String basmalaAndSurahsNameFontsFamily = FontLoaderService.basmalaAndSurahsNameFontsFamily;
 
   QuranController({this.pageNumber, this.surahNumber, this.juzNumber});
