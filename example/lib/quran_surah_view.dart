@@ -20,7 +20,7 @@ class _QuranSurahViewState extends State<QuranSurahView> {
 
   late QuranController quranController = QuranController(surahNumber: widget.surahNumber, juzNumber: widget.juzNumber);
   List<String> surahVerses = [];
-  VersesByPage versesAndFont = VersesByPage();
+  List<Verse> versesByPage = [];
   Surah surah = Surah();
   Juz juz = Juz();
   int versesCount = 0;
@@ -35,7 +35,7 @@ class _QuranSurahViewState extends State<QuranSurahView> {
 
   getCustomVerses() async {
     await quranController.initializing();
-    versesAndFont = quranController.verses;
+    versesByPage = quranController.verses;
     surah = quranController.surah;
     juz = quranController.juz;
     setState(() {});

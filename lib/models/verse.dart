@@ -59,4 +59,42 @@ class Verse {
     }
     return data;
   }
+
+  Verse copyWith({int? id, int? verseNumber, String? verseKey, int? hizbNumber, int? rubElHizbNumber, int? rukuNumber, int? manzilNumber, int? sajdahNumber, String? textImlaeiSimple, int? pageNumber, int? juzNumber, List<VerseWord>? words, String? font}) {
+    return Verse(
+      id: id?? this.id,
+      verseNumber: verseNumber?? this.verseNumber,
+      verseKey: verseKey?? this.verseKey,
+      hizbNumber: hizbNumber?? this.hizbNumber,
+      rubElHizbNumber: rubElHizbNumber?? this.rubElHizbNumber,
+      rukuNumber: rukuNumber?? this.rukuNumber,
+      manzilNumber: manzilNumber?? this.manzilNumber,
+      sajdahNumber: sajdahNumber?? this.sajdahNumber,
+      textImlaeiSimple: textImlaeiSimple?? this.textImlaeiSimple,
+      pageNumber: pageNumber?? this.pageNumber,
+      juzNumber: juzNumber?? this.juzNumber,
+      words: words?? this.words,
+      font: font?? this.font,
+    );
+  }
+
+  Verse copyWithBasmala(Verse basmalaVerse) {
+    Verse verse = Verse();
+    verse = verse.copyWith(
+      id: id,
+      verseNumber: basmalaVerse.verseNumber,
+      verseKey: (verseKey!.split(':')..last = '0').join(':'),
+      hizbNumber: hizbNumber,
+      rubElHizbNumber: rubElHizbNumber,
+      rukuNumber: rukuNumber,
+      manzilNumber: manzilNumber,
+      sajdahNumber: sajdahNumber,
+      textImlaeiSimple: basmalaVerse.textImlaeiSimple,
+      pageNumber: pageNumber,
+      juzNumber: juzNumber,
+      words: basmalaVerse.words,
+      font: basmalaVerse.font,
+    );
+    return verse;
+  }
 }

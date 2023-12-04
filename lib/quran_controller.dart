@@ -1,15 +1,18 @@
 library quran_controller;
 
+import 'dart:async';
+
 import '../../services/services.dart';
 import 'models/models.dart';
 
 
 class QuranController{
+  static List<Verse> allVerses = [];
   final int? pageNumber;
   final int? surahNumber;
   final int? juzNumber;
   Surah surah = Surah();
-  VersesByPage verses = VersesByPage();
+  List<Verse> verses = [];
   Juz juz = Juz();
   List<Surah> surahsDetails = [];
   static const String basmalaText = '\u00F3';
@@ -22,6 +25,10 @@ class QuranController{
 
   initializing() async {
     await FontLoaderService.loadBasmalaAndSurahsNameFonts();
+    if(allVerses.isEmpty) {
+      await VersesService.loadVerses();
+      allVerses = VersesService.allVerses;
+    }
     surahsDetails = await VersesService.getSurahsDetails();
     if(surahNumber != null) {
       surah = (await VersesService.gettingVersesBySurahNumber(surahNumber!));
