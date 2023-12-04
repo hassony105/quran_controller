@@ -13,6 +13,8 @@ class QuranController{
   static const String surahText = '\u005C';
   static const String borderText = '\u00F2';
 
+  static SearchService _searchService = SearchService();
+
   static const String basmalaAndSurahsNameFontsFamily = FontLoaderService.basmalaAndSurahsNameFontsFamily;
 
   QuranController();
@@ -30,6 +32,7 @@ class QuranController{
   Future<Surah> gettingVersesBySurahNumber(int surahNumber) async => await VersesService.gettingVersesBySurahNumber(surahNumber);
   Future<Juz> gettingVersesByJuzNumber(int juzNumber) async => await VersesService.gettingVersesByJuzNumber(juzNumber);
 
+  Future<List<Verse>> search(String text) async => await _searchService.search(text);
 
   String getSurahName(int surahNumber)=> String.fromCharCode(_getFontRangeForSurahNumber(surahNumber));
 
