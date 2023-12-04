@@ -18,13 +18,9 @@ class QuranSurahView extends StatefulWidget {
 class _QuranSurahViewState extends State<QuranSurahView> {
   ScrollController scrollController = ScrollController();
 
-  late QuranController quranController = QuranController(surahNumber: widget.surahNumber, juzNumber: widget.juzNumber);
-  List<String> surahVerses = [];
-  List<Verse> versesByPage = [];
+  late QuranController quranController = QuranController();
   Surah surah = Surah();
-  Juz juz = Juz();
-  int versesCount = 0;
-  List<int?> bookmarked = [];
+
   @override
   void initState() {
     scrollController.addListener(() => setState((){},),);
@@ -35,9 +31,7 @@ class _QuranSurahViewState extends State<QuranSurahView> {
 
   getCustomVerses() async {
     await quranController.initializing();
-    versesByPage = quranController.verses;
-    surah = quranController.surah;
-    juz = quranController.juz;
+    surah = await quranController.gettingVersesBySurahNumber(widget.surahNumber??1);
     setState(() {});
   }
 

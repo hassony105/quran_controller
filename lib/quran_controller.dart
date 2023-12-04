@@ -8,12 +8,6 @@ import 'models/models.dart';
 
 class QuranController{
   static List<Verse> allVerses = [];
-  final int? pageNumber;
-  final int? surahNumber;
-  final int? juzNumber;
-  Surah surah = Surah();
-  List<Verse> verses = [];
-  Juz juz = Juz();
   List<Surah> surahsDetails = [];
   static const String basmalaText = '\u00F3';
   static const String surahText = '\u005C';
@@ -21,25 +15,21 @@ class QuranController{
 
   static const String basmalaAndSurahsNameFontsFamily = FontLoaderService.basmalaAndSurahsNameFontsFamily;
 
-  QuranController({this.pageNumber, this.surahNumber, this.juzNumber});
+  QuranController();
 
   initializing() async {
     await FontLoaderService.loadBasmalaAndSurahsNameFonts();
+    surahsDetails = await VersesService.getSurahsDetails();
     if(allVerses.isEmpty) {
       await VersesService.loadVerses();
       allVerses = VersesService.allVerses;
     }
-    surahsDetails = await VersesService.getSurahsDetails();
-    if(surahNumber != null) {
-      surah = (await VersesService.gettingVersesBySurahNumber(surahNumber!));
-    }
-    if(pageNumber != null){
-      verses = (await VersesService.gettingVersesByPageNumber(pageNumber!));
-    }
-    if(juzNumber != null){
-      juz = (await VersesService.gettingVersesByJuzNumber(juzNumber!));
-    }
   }
+
+  Future<List<Verse>> gettingVersesByPageNumber(int pageNumber) async => await VersesService.gettingVersesByPageNumber(pageNumber);
+  Future<Surah> gettingVersesBySurahNumber(int surahNumber) async => await VersesService.gettingVersesBySurahNumber(surahNumber);
+  Future<Juz> gettingVersesByJuzNumber(int juzNumber) async => await VersesService.gettingVersesByJuzNumber(juzNumber);
+
 
   String getSurahName(int surahNumber)=> String.fromCharCode(_getFontRangeForSurahNumber(surahNumber));
 
