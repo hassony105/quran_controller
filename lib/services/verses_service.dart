@@ -36,6 +36,14 @@ class VersesService{
       rethrow;
     }
   }
+  static Future<Verse> gettingVerseByVerseKey(String key) async {
+    try{
+      return allVerses.firstWhere((element) => element.verseKey == key);
+    } catch(e){
+      rethrow;
+    }
+  }
+
   static Future<List<Surah>> getSurahsDetails() async {
     try{
       List<Surah> surahs = [];
