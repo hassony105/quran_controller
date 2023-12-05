@@ -21,17 +21,17 @@ class QuranController{
 
   initializing() async {
     await FontLoaderService.loadBasmalaAndSurahsNameFonts();
-    surahsDetails = await VersesService.getSurahsDetails();
     if(allVerses.isEmpty) {
       await VersesService.loadVerses();
       allVerses = VersesService.allVerses;
     }
+    surahsDetails = VersesService.surahsDetails;
   }
 
-  Future<List<Verse>> gettingVersesByPageNumber(int pageNumber) async => await VersesService.gettingVersesByPageNumber(pageNumber);
-  Future<Surah> gettingVersesBySurahNumber(int surahNumber) async => await VersesService.gettingVersesBySurahNumber(surahNumber);
-  Future<Juz> gettingVersesByJuzNumber(int juzNumber) async => await VersesService.gettingVersesByJuzNumber(juzNumber);
-  Future<Verse> gettingVerseByVerseKey(String key) async => await VersesService.gettingVerseByVerseKey(key);
+  List<Verse> gettingVersesByPageNumber(int pageNumber) => VersesService.gettingVersesByPageNumber(pageNumber);
+  Surah gettingVersesBySurahNumber(int surahNumber) => VersesService.gettingVersesBySurahNumber(surahNumber);
+  Juz gettingVersesByJuzNumber(int juzNumber) => VersesService.gettingVersesByJuzNumber(juzNumber);
+  Verse gettingVerseByVerseKey(String key) => VersesService.gettingVerseByVerseKey(key);
 
   Future<List<Verse>> search(String text) async => await _searchService.search(text);
 
