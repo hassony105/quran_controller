@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:quran_controller/quran_controller.dart';
 import '/models/models.dart';
 import '/services/services.dart';
-Verse basmalaVerse = Verse(verseNumber: 0, textImlaeiSimple: 'بسم الله الرحمن الرحيم', words: [VerseWord(codeV1: '\u003B'),VerseWord(codeV1: '\u003C'),VerseWord(codeV1: '\u003D'),VerseWord(codeV1: '\u003E'),], font: QuranController.basmalaAndSurahsNameFontsFamily);
+Verse basmalaVerse = Verse(verseNumber: 0, textImlaeiSimple: 'بسم الله الرحمن الرحيم', words: [VerseWord(codeV1: '\u003B'),VerseWord(codeV1: '\u003C'),VerseWord(codeV1: '\u003D'),VerseWord(codeV1: '\u003E'),], font: QuranController.instance.basmalaAndSurahsNameFontsFamily);
 class VersesService{
   static List<Verse> allVerses = [];
   static List<Surah> surahsDetails = [];

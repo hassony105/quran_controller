@@ -17,8 +17,6 @@ class QuranSurahView extends StatefulWidget {
 
 class _QuranSurahViewState extends State<QuranSurahView> {
   ScrollController scrollController = ScrollController();
-
-  late QuranController quranController = QuranController();
   Surah surah = Surah();
 
   @override
@@ -30,8 +28,8 @@ class _QuranSurahViewState extends State<QuranSurahView> {
 
 
   getCustomVerses() async {
-    await quranController.initializing();
-    surah = await quranController.gettingVersesBySurahNumber(widget.surahNumber??1);
+    await QuranController.instance.initializing();
+    surah = QuranController.instance.gettingVersesBySurahNumber(widget.surahNumber??1);
     setState(() {});
   }
 
@@ -46,8 +44,8 @@ class _QuranSurahViewState extends State<QuranSurahView> {
         title: Stack(
           alignment: Alignment.center,
           children: [
-            const Text(QuranController.borderText, textDirection: TextDirection.rtl, style: TextStyle(color: Colors.white, fontFamily: QuranController.basmalaAndSurahsNameFontsFamily, fontSize: 35)),
-            Text(QuranController.surahText + quranController.getSurahName(widget.surahNumber??1), textDirection: TextDirection.rtl, style: const TextStyle(color: Colors.white, fontFamily: QuranController.basmalaAndSurahsNameFontsFamily)),
+            Text(QuranController.instance.borderText, textDirection: TextDirection.rtl, style: TextStyle(color: Colors.white, fontFamily: QuranController.instance.basmalaAndSurahsNameFontsFamily, fontSize: 35)),
+            Text(QuranController.instance.surahText + QuranController.instance.getSurahName(widget.surahNumber??1), textDirection: TextDirection.rtl, style: TextStyle(color: Colors.white, fontFamily: QuranController.instance.basmalaAndSurahsNameFontsFamily)),
           ],
         ),
       ),
@@ -73,11 +71,11 @@ class _QuranSurahViewState extends State<QuranSurahView> {
                     border: Border.all(color: Colors.blue, width: 2)
                   // border: BorderDirectional(bottom: BorderSide(color:  StaticConstants.lblBlueColor,width: 1)),
                 ),
-                child: const Text(
-                  QuranController.basmalaText,
+                child: Text(
+                  QuranController.instance.basmalaText,
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontFamily: QuranController.basmalaAndSurahsNameFontsFamily,
+                    fontFamily: QuranController.instance.basmalaAndSurahsNameFontsFamily,
                     fontSize: 35,
                   ),
                 ),

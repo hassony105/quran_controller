@@ -13,7 +13,7 @@ class VersesByPage{
 
     for (var item in (_verses??<Verse>[])) {
       verses.add(item..font = font);
-      if(verses.last.fullVerse == basmalaVerse.fullVerse) verses.last.font = QuranController.basmalaAndSurahsNameFontsFamily;
+      if(verses.last.fullVerse == basmalaVerse.fullVerse) verses.last.font = QuranController.instance.basmalaAndSurahsNameFontsFamily;
     }
 
     return verses;

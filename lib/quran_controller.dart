@@ -5,18 +5,20 @@ import 'dart:async';
 import '../../services/services.dart';
 import 'models/models.dart';
 
-
+QuranController _quranController = QuranController();
 class QuranController{
+
+  static QuranController instance = _quranController;
   static List<Verse> allVerses = [];
   List<Surah> surahsDetails = [];
   List<Juz> juzsDetails = [];
-  static const String basmalaText = '\u00F3';
-  static const String surahText = '\u005C';
-  static const String borderText = '\u00F2';
+  final String basmalaText = '\u00F3';
+  final String surahText = '\u005C';
+  final String borderText = '\u00F2';
 
   static final SearchService _searchService = SearchService();
 
-  static const String basmalaAndSurahsNameFontsFamily = FontLoaderService.basmalaAndSurahsNameFontsFamily;
+  final String basmalaAndSurahsNameFontsFamily = FontLoaderService.basmalaAndSurahsNameFontsFamily;
 
   QuranController();
 
