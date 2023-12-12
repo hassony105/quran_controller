@@ -9,6 +9,7 @@ import 'models/models.dart';
 class QuranController{
   static List<Verse> allVerses = [];
   List<Surah> surahsDetails = [];
+  List<Juz> juzsDetails = [];
   static const String basmalaText = '\u00F3';
   static const String surahText = '\u005C';
   static const String borderText = '\u00F2';
@@ -26,6 +27,7 @@ class QuranController{
       allVerses = VersesService.allVerses;
     }
     surahsDetails = VersesService.surahsDetails;
+    juzsDetails = VersesService.juzsDetails;
   }
 
   List<Verse> gettingVersesByPageNumber(int pageNumber) => VersesService.gettingVersesByPageNumber(pageNumber);

@@ -8,6 +8,11 @@ class Juz{
   int? startPage;
   int? endPage;
 
+  int get startSurah => int.parse(startKey?.split(':').first??'0');
+  int get startVerse => int.parse(startKey?.split(':').last??'0');
+  int get endSurah => int.parse(endKey?.split(':').first??'0');
+  int get endVerse => int.parse(endKey?.split(':').last??'0');
+
   Juz({this.juzNumber, this.verses, this.startKey, this.endKey, this.startPage, this.endPage});
 
   Juz.fromJson(Map<String, dynamic> data){
