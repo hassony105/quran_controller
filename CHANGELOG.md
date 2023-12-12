@@ -1,3 +1,3 @@
-## 0.0.1
-
-* TODO: Describe initial release.
+## 1.6.1
+* This is the first released version for this package
+* There are no changes log
