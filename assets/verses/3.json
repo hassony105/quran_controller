@@ -20,10 +20,8 @@
         "verse_id": 13,
         "location": "2:6:1",
         "code_v1": "ﭑ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭑ"
+                "page_number": 3,
+                "text": "ﭑ"
       },
       {
         "id": 6906,
@@ -33,10 +31,8 @@
         "verse_id": 13,
         "location": "2:6:2",
         "code_v1": "ﭒ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭒ"
+                "page_number": 3,
+                "text": "ﭒ"
       },
       {
         "id": 6907,
@@ -46,10 +42,8 @@
         "verse_id": 13,
         "location": "2:6:3",
         "code_v1": "ﭓ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭓ"
+                "page_number": 3,
+                "text": "ﭓ"
       },
       {
         "id": 6908,
@@ -59,10 +53,8 @@
         "verse_id": 13,
         "location": "2:6:4",
         "code_v1": "ﭔ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭔ"
+                "page_number": 3,
+                "text": "ﭔ"
       },
       {
         "id": 6909,
@@ -72,10 +64,8 @@
         "verse_id": 13,
         "location": "2:6:5",
         "code_v1": "ﭕ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭕ"
+                "page_number": 3,
+                "text": "ﭕ"
       },
       {
         "id": 6910,
@@ -85,10 +75,8 @@
         "verse_id": 13,
         "location": "2:6:6",
         "code_v1": "ﭖ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭖ"
+                "page_number": 3,
+                "text": "ﭖ"
       },
       {
         "id": 6911,
@@ -98,10 +86,8 @@
         "verse_id": 13,
         "location": "2:6:7",
         "code_v1": "ﭗ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭗ"
+                "page_number": 3,
+                "text": "ﭗ"
       },
       {
         "id": 6912,
@@ -111,10 +97,8 @@
         "verse_id": 13,
         "location": "2:6:8",
         "code_v1": "ﭘ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭘ"
+                "page_number": 3,
+                "text": "ﭘ"
       },
       {
         "id": 6913,
@@ -124,10 +108,8 @@
         "verse_id": 13,
         "location": "2:6:9",
         "code_v1": "ﭙ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 1,
-        "text": "ﭙ"
+                "page_number": 3,
+                "text": "ﭙ"
       },
       {
         "id": 6914,
@@ -137,10 +119,8 @@
         "verse_id": 13,
         "location": "2:6:10",
         "code_v1": "ﭚ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭚ"
+                "page_number": 3,
+                "text": "ﭚ"
       },
       {
         "id": 6915,
@@ -150,10 +130,8 @@
         "verse_id": 13,
         "location": "2:6:11",
         "code_v1": "ﭛ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭛ"
+                "page_number": 3,
+                "text": "ﭛ"
       },
       {
         "id": 6916,
@@ -163,10 +141,8 @@
         "verse_id": 13,
         "location": "2:6:12",
         "code_v1": "ﭜ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭜ"
+                "page_number": 3,
+                "text": "ﭜ"
       }
     ]
   },
@@ -191,10 +167,8 @@
         "verse_id": 14,
         "location": "2:7:1",
         "code_v1": "ﭝ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭝ"
+                "page_number": 3,
+                "text": "ﭝ"
       },
       {
         "id": 8310,
@@ -204,10 +178,8 @@
         "verse_id": 14,
         "location": "2:7:2",
         "code_v1": "ﭞ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭞ"
+                "page_number": 3,
+                "text": "ﭞ"
       },
       {
         "id": 8311,
@@ -217,10 +189,8 @@
         "verse_id": 14,
         "location": "2:7:3",
         "code_v1": "ﭟ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭟ"
+                "page_number": 3,
+                "text": "ﭟ"
       },
       {
         "id": 8312,
@@ -230,10 +200,8 @@
         "verse_id": 14,
         "location": "2:7:4",
         "code_v1": "ﭠ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭠ"
+                "page_number": 3,
+                "text": "ﭠ"
       },
       {
         "id": 8313,
@@ -243,10 +211,8 @@
         "verse_id": 14,
         "location": "2:7:5",
         "code_v1": "ﭡ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭡ"
+                "page_number": 3,
+                "text": "ﭡ"
       },
       {
         "id": 8314,
@@ -256,10 +222,8 @@
         "verse_id": 14,
         "location": "2:7:6",
         "code_v1": "ﭢﭣ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭢﭣ"
+                "page_number": 3,
+                "text": "ﭢﭣ"
       },
       {
         "id": 8316,
@@ -269,10 +233,8 @@
         "verse_id": 14,
         "location": "2:7:7",
         "code_v1": "ﭤ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 2,
-        "text": "ﭤ"
+                "page_number": 3,
+                "text": "ﭤ"
       },
       {
         "id": 8317,
@@ -282,10 +244,8 @@
         "verse_id": 14,
         "location": "2:7:8",
         "code_v1": "ﭥ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭥ"
+                "page_number": 3,
+                "text": "ﭥ"
       },
       {
         "id": 8318,
@@ -295,10 +255,8 @@
         "verse_id": 14,
         "location": "2:7:9",
         "code_v1": "ﭦﭧ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭦﭧ"
+                "page_number": 3,
+                "text": "ﭦﭧ"
       },
       {
         "id": 8320,
@@ -308,10 +266,8 @@
         "verse_id": 14,
         "location": "2:7:10",
         "code_v1": "ﭨ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭨ"
+                "page_number": 3,
+                "text": "ﭨ"
       },
       {
         "id": 8321,
@@ -321,10 +277,8 @@
         "verse_id": 14,
         "location": "2:7:11",
         "code_v1": "ﭩ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭩ"
+                "page_number": 3,
+                "text": "ﭩ"
       },
       {
         "id": 8322,
@@ -334,10 +288,8 @@
         "verse_id": 14,
         "location": "2:7:12",
         "code_v1": "ﭪ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭪ"
+                "page_number": 3,
+                "text": "ﭪ"
       },
       {
         "id": 8323,
@@ -347,10 +299,8 @@
         "verse_id": 14,
         "location": "2:7:13",
         "code_v1": "ﭫ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭫ"
+                "page_number": 3,
+                "text": "ﭫ"
       }
     ]
   },
@@ -375,10 +325,8 @@
         "verse_id": 15,
         "location": "2:8:1",
         "code_v1": "ﭬ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭬ"
+                "page_number": 3,
+                "text": "ﭬ"
       },
       {
         "id": 9599,
@@ -388,10 +336,8 @@
         "verse_id": 15,
         "location": "2:8:2",
         "code_v1": "ﭭ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 3,
-        "text": "ﭭ"
+                "page_number": 3,
+                "text": "ﭭ"
       },
       {
         "id": 9600,
@@ -401,10 +347,8 @@
         "verse_id": 15,
         "location": "2:8:3",
         "code_v1": "ﭮ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭮ"
+                "page_number": 3,
+                "text": "ﭮ"
       },
       {
         "id": 9601,
@@ -414,10 +358,8 @@
         "verse_id": 15,
         "location": "2:8:4",
         "code_v1": "ﭯ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭯ"
+                "page_number": 3,
+                "text": "ﭯ"
       },
       {
         "id": 9602,
@@ -427,10 +369,8 @@
         "verse_id": 15,
         "location": "2:8:5",
         "code_v1": "ﭰ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭰ"
+                "page_number": 3,
+                "text": "ﭰ"
       },
       {
         "id": 9603,
@@ -440,10 +380,8 @@
         "verse_id": 15,
         "location": "2:8:6",
         "code_v1": "ﭱ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭱ"
+                "page_number": 3,
+                "text": "ﭱ"
       },
       {
         "id": 9604,
@@ -453,10 +391,8 @@
         "verse_id": 15,
         "location": "2:8:7",
         "code_v1": "ﭲ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭲ"
+                "page_number": 3,
+                "text": "ﭲ"
       },
       {
         "id": 9605,
@@ -466,10 +402,8 @@
         "verse_id": 15,
         "location": "2:8:8",
         "code_v1": "ﭳ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭳ"
+                "page_number": 3,
+                "text": "ﭳ"
       },
       {
         "id": 9606,
@@ -479,10 +413,8 @@
         "verse_id": 15,
         "location": "2:8:9",
         "code_v1": "ﭴ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭴ"
+                "page_number": 3,
+                "text": "ﭴ"
       },
       {
         "id": 9607,
@@ -492,10 +424,8 @@
         "verse_id": 15,
         "location": "2:8:10",
         "code_v1": "ﭵ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭵ"
+                "page_number": 3,
+                "text": "ﭵ"
       },
       {
         "id": 9608,
@@ -505,10 +435,8 @@
         "verse_id": 15,
         "location": "2:8:11",
         "code_v1": "ﭶ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭶ"
+                "page_number": 3,
+                "text": "ﭶ"
       },
       {
         "id": 9609,
@@ -518,10 +446,8 @@
         "verse_id": 15,
         "location": "2:8:12",
         "code_v1": "ﭷ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 4,
-        "text": "ﭷ"
+                "page_number": 3,
+                "text": "ﭷ"
       }
     ]
   },
@@ -546,10 +472,8 @@
         "verse_id": 16,
         "location": "2:9:1",
         "code_v1": "ﭸ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭸ"
+                "page_number": 3,
+                "text": "ﭸ"
       },
       {
         "id": 9695,
@@ -559,10 +483,8 @@
         "verse_id": 16,
         "location": "2:9:2",
         "code_v1": "ﭹ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭹ"
+                "page_number": 3,
+                "text": "ﭹ"
       },
       {
         "id": 9696,
@@ -572,10 +494,8 @@
         "verse_id": 16,
         "location": "2:9:3",
         "code_v1": "ﭺ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭺ"
+                "page_number": 3,
+                "text": "ﭺ"
       },
       {
         "id": 9697,
@@ -585,10 +505,8 @@
         "verse_id": 16,
         "location": "2:9:4",
         "code_v1": "ﭻ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭻ"
+                "page_number": 3,
+                "text": "ﭻ"
       },
       {
         "id": 9698,
@@ -598,10 +516,8 @@
         "verse_id": 16,
         "location": "2:9:5",
         "code_v1": "ﭼ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭼ"
+                "page_number": 3,
+                "text": "ﭼ"
       },
       {
         "id": 9699,
@@ -611,10 +527,8 @@
         "verse_id": 16,
         "location": "2:9:6",
         "code_v1": "ﭽ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭽ"
+                "page_number": 3,
+                "text": "ﭽ"
       },
       {
         "id": 9700,
@@ -624,10 +538,8 @@
         "verse_id": 16,
         "location": "2:9:7",
         "code_v1": "ﭾ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭾ"
+                "page_number": 3,
+                "text": "ﭾ"
       },
       {
         "id": 9701,
@@ -637,10 +549,8 @@
         "verse_id": 16,
         "location": "2:9:8",
         "code_v1": "ﭿ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 5,
-        "text": "ﭿ"
+                "page_number": 3,
+                "text": "ﭿ"
       },
       {
         "id": 9702,
@@ -650,10 +560,8 @@
         "verse_id": 16,
         "location": "2:9:9",
         "code_v1": "ﮀ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮀ"
+                "page_number": 3,
+                "text": "ﮀ"
       },
       {
         "id": 9703,
@@ -663,10 +571,8 @@
         "verse_id": 16,
         "location": "2:9:10",
         "code_v1": "ﮁ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮁ"
+                "page_number": 3,
+                "text": "ﮁ"
       },
       {
         "id": 9704,
@@ -676,10 +582,8 @@
         "verse_id": 16,
         "location": "2:9:11",
         "code_v1": "ﮂ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮂ"
+                "page_number": 3,
+                "text": "ﮂ"
       }
     ]
   },
@@ -704,10 +608,8 @@
         "verse_id": 17,
         "location": "2:10:1",
         "code_v1": "ﮃ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮃ"
+                "page_number": 3,
+                "text": "ﮃ"
       },
       {
         "id": 10916,
@@ -717,10 +619,8 @@
         "verse_id": 17,
         "location": "2:10:2",
         "code_v1": "ﮄ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮄ"
+                "page_number": 3,
+                "text": "ﮄ"
       },
       {
         "id": 10917,
@@ -730,10 +630,8 @@
         "verse_id": 17,
         "location": "2:10:3",
         "code_v1": "ﮅ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮅ"
+                "page_number": 3,
+                "text": "ﮅ"
       },
       {
         "id": 10918,
@@ -743,10 +641,8 @@
         "verse_id": 17,
         "location": "2:10:4",
         "code_v1": "ﮆ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮆ"
+                "page_number": 3,
+                "text": "ﮆ"
       },
       {
         "id": 10919,
@@ -756,10 +652,8 @@
         "verse_id": 17,
         "location": "2:10:5",
         "code_v1": "ﮇ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮇ"
+                "page_number": 3,
+                "text": "ﮇ"
       },
       {
         "id": 10920,
@@ -769,10 +663,8 @@
         "verse_id": 17,
         "location": "2:10:6",
         "code_v1": "ﮈﮉ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 6,
-        "text": "ﮈﮉ"
+                "page_number": 3,
+                "text": "ﮈﮉ"
       },
       {
         "id": 10922,
@@ -782,10 +674,8 @@
         "verse_id": 17,
         "location": "2:10:7",
         "code_v1": "ﮊ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮊ"
+                "page_number": 3,
+                "text": "ﮊ"
       },
       {
         "id": 10923,
@@ -795,10 +685,8 @@
         "verse_id": 17,
         "location": "2:10:8",
         "code_v1": "ﮋ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮋ"
+                "page_number": 3,
+                "text": "ﮋ"
       },
       {
         "id": 10924,
@@ -808,10 +696,8 @@
         "verse_id": 17,
         "location": "2:10:9",
         "code_v1": "ﮌ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮌ"
+                "page_number": 3,
+                "text": "ﮌ"
       },
       {
         "id": 10925,
@@ -821,10 +707,8 @@
         "verse_id": 17,
         "location": "2:10:10",
         "code_v1": "ﮍ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮍ"
+                "page_number": 3,
+                "text": "ﮍ"
       },
       {
         "id": 10926,
@@ -834,10 +718,8 @@
         "verse_id": 17,
         "location": "2:10:11",
         "code_v1": "ﮎ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮎ"
+                "page_number": 3,
+                "text": "ﮎ"
       },
       {
         "id": 10927,
@@ -847,10 +729,8 @@
         "verse_id": 17,
         "location": "2:10:12",
         "code_v1": "ﮏ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮏ"
+                "page_number": 3,
+                "text": "ﮏ"
       },
       {
         "id": 10928,
@@ -860,10 +740,8 @@
         "verse_id": 17,
         "location": "2:10:13",
         "code_v1": "ﮐ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮐ"
+                "page_number": 3,
+                "text": "ﮐ"
       }
     ]
   },
@@ -888,10 +766,8 @@
         "verse_id": 18,
         "location": "2:11:1",
         "code_v1": "ﮑ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮑ"
+                "page_number": 3,
+                "text": "ﮑ"
       },
       {
         "id": 12331,
@@ -901,10 +777,8 @@
         "verse_id": 18,
         "location": "2:11:2",
         "code_v1": "ﮒ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮒ"
+                "page_number": 3,
+                "text": "ﮒ"
       },
       {
         "id": 12332,
@@ -914,10 +788,8 @@
         "verse_id": 18,
         "location": "2:11:3",
         "code_v1": "ﮓ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 7,
-        "text": "ﮓ"
+                "page_number": 3,
+                "text": "ﮓ"
       },
       {
         "id": 12333,
@@ -927,10 +799,8 @@
         "verse_id": 18,
         "location": "2:11:4",
         "code_v1": "ﮔ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮔ"
+                "page_number": 3,
+                "text": "ﮔ"
       },
       {
         "id": 12334,
@@ -940,10 +810,8 @@
         "verse_id": 18,
         "location": "2:11:5",
         "code_v1": "ﮕ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮕ"
+                "page_number": 3,
+                "text": "ﮕ"
       },
       {
         "id": 12335,
@@ -953,10 +821,8 @@
         "verse_id": 18,
         "location": "2:11:6",
         "code_v1": "ﮖ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮖ"
+                "page_number": 3,
+                "text": "ﮖ"
       },
       {
         "id": 12336,
@@ -966,10 +832,8 @@
         "verse_id": 18,
         "location": "2:11:7",
         "code_v1": "ﮗ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮗ"
+                "page_number": 3,
+                "text": "ﮗ"
       },
       {
         "id": 12337,
@@ -979,10 +843,8 @@
         "verse_id": 18,
         "location": "2:11:8",
         "code_v1": "ﮘ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮘ"
+                "page_number": 3,
+                "text": "ﮘ"
       },
       {
         "id": 12338,
@@ -992,10 +854,8 @@
         "verse_id": 18,
         "location": "2:11:9",
         "code_v1": "ﮙ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮙ"
+                "page_number": 3,
+                "text": "ﮙ"
       },
       {
         "id": 12339,
@@ -1005,10 +865,8 @@
         "verse_id": 18,
         "location": "2:11:10",
         "code_v1": "ﮚ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮚ"
+                "page_number": 3,
+                "text": "ﮚ"
       },
       {
         "id": 12340,
@@ -1018,10 +876,8 @@
         "verse_id": 18,
         "location": "2:11:11",
         "code_v1": "ﮛ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮛ"
+                "page_number": 3,
+                "text": "ﮛ"
       },
       {
         "id": 12341,
@@ -1031,10 +887,8 @@
         "verse_id": 18,
         "location": "2:11:12",
         "code_v1": "ﮜ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 8,
-        "text": "ﮜ"
+                "page_number": 3,
+                "text": "ﮜ"
       }
     ]
   },
@@ -1059,10 +913,8 @@
         "verse_id": 19,
         "location": "2:12:1",
         "code_v1": "ﮝ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮝ"
+                "page_number": 3,
+                "text": "ﮝ"
       },
       {
         "id": 13813,
@@ -1072,10 +924,8 @@
         "verse_id": 19,
         "location": "2:12:2",
         "code_v1": "ﮞ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮞ"
+                "page_number": 3,
+                "text": "ﮞ"
       },
       {
         "id": 13814,
@@ -1085,10 +935,8 @@
         "verse_id": 19,
         "location": "2:12:3",
         "code_v1": "ﮟ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮟ"
+                "page_number": 3,
+                "text": "ﮟ"
       },
       {
         "id": 13815,
@@ -1098,10 +946,8 @@
         "verse_id": 19,
         "location": "2:12:4",
         "code_v1": "ﮠ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮠ"
+                "page_number": 3,
+                "text": "ﮠ"
       },
       {
         "id": 13816,
@@ -1111,10 +957,8 @@
         "verse_id": 19,
         "location": "2:12:5",
         "code_v1": "ﮡ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮡ"
+                "page_number": 3,
+                "text": "ﮡ"
       },
       {
         "id": 13817,
@@ -1124,10 +968,8 @@
         "verse_id": 19,
         "location": "2:12:6",
         "code_v1": "ﮢ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮢ"
+                "page_number": 3,
+                "text": "ﮢ"
       },
       {
         "id": 13818,
@@ -1137,10 +979,8 @@
         "verse_id": 19,
         "location": "2:12:7",
         "code_v1": "ﮣ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮣ"
+                "page_number": 3,
+                "text": "ﮣ"
       },
       {
         "id": 13819,
@@ -1150,10 +990,8 @@
         "verse_id": 19,
         "location": "2:12:8",
         "code_v1": "ﮤ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮤ"
+                "page_number": 3,
+                "text": "ﮤ"
       }
     ]
   },
@@ -1178,10 +1016,8 @@
         "verse_id": 20,
         "location": "2:13:1",
         "code_v1": "ﮥ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮥ"
+                "page_number": 3,
+                "text": "ﮥ"
       },
       {
         "id": 15181,
@@ -1191,10 +1027,8 @@
         "verse_id": 20,
         "location": "2:13:2",
         "code_v1": "ﮦ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 9,
-        "text": "ﮦ"
+                "page_number": 3,
+                "text": "ﮦ"
       },
       {
         "id": 15182,
@@ -1204,10 +1038,8 @@
         "verse_id": 20,
         "location": "2:13:3",
         "code_v1": "ﮧ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮧ"
+                "page_number": 3,
+                "text": "ﮧ"
       },
       {
         "id": 15183,
@@ -1217,10 +1049,8 @@
         "verse_id": 20,
         "location": "2:13:4",
         "code_v1": "ﮨ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮨ"
+                "page_number": 3,
+                "text": "ﮨ"
       },
       {
         "id": 15184,
@@ -1230,10 +1060,8 @@
         "verse_id": 20,
         "location": "2:13:5",
         "code_v1": "ﮩ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮩ"
+                "page_number": 3,
+                "text": "ﮩ"
       },
       {
         "id": 15185,
@@ -1243,10 +1071,8 @@
         "verse_id": 20,
         "location": "2:13:6",
         "code_v1": "ﮪ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮪ"
+                "page_number": 3,
+                "text": "ﮪ"
       },
       {
         "id": 15186,
@@ -1256,10 +1082,8 @@
         "verse_id": 20,
         "location": "2:13:7",
         "code_v1": "ﮫ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮫ"
+                "page_number": 3,
+                "text": "ﮫ"
       },
       {
         "id": 15187,
@@ -1269,10 +1093,8 @@
         "verse_id": 20,
         "location": "2:13:8",
         "code_v1": "ﮬ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮬ"
+                "page_number": 3,
+                "text": "ﮬ"
       },
       {
         "id": 15188,
@@ -1282,10 +1104,8 @@
         "verse_id": 20,
         "location": "2:13:9",
         "code_v1": "ﮭ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮭ"
+                "page_number": 3,
+                "text": "ﮭ"
       },
       {
         "id": 15189,
@@ -1295,10 +1115,8 @@
         "verse_id": 20,
         "location": "2:13:10",
         "code_v1": "ﮮ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮮ"
+                "page_number": 3,
+                "text": "ﮮ"
       },
       {
         "id": 15190,
@@ -1308,10 +1126,8 @@
         "verse_id": 20,
         "location": "2:13:11",
         "code_v1": "ﮯ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮯ"
+                "page_number": 3,
+                "text": "ﮯ"
       },
       {
         "id": 15191,
@@ -1321,10 +1137,8 @@
         "verse_id": 20,
         "location": "2:13:12",
         "code_v1": "ﮰﮱ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 10,
-        "text": "ﮰﮱ"
+                "page_number": 3,
+                "text": "ﮰﮱ"
       },
       {
         "id": 15193,
@@ -1334,10 +1148,8 @@
         "verse_id": 20,
         "location": "2:13:13",
         "code_v1": "ﯓ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯓ"
+                "page_number": 3,
+                "text": "ﯓ"
       },
       {
         "id": 15194,
@@ -1347,10 +1159,8 @@
         "verse_id": 20,
         "location": "2:13:14",
         "code_v1": "ﯔ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯔ"
+                "page_number": 3,
+                "text": "ﯔ"
       },
       {
         "id": 15195,
@@ -1360,10 +1170,8 @@
         "verse_id": 20,
         "location": "2:13:15",
         "code_v1": "ﯕ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯕ"
+                "page_number": 3,
+                "text": "ﯕ"
       },
       {
         "id": 15196,
@@ -1373,10 +1181,8 @@
         "verse_id": 20,
         "location": "2:13:16",
         "code_v1": "ﯖ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯖ"
+                "page_number": 3,
+                "text": "ﯖ"
       },
       {
         "id": 15197,
@@ -1386,10 +1192,8 @@
         "verse_id": 20,
         "location": "2:13:17",
         "code_v1": "ﯗ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯗ"
+                "page_number": 3,
+                "text": "ﯗ"
       },
       {
         "id": 15198,
@@ -1399,10 +1203,8 @@
         "verse_id": 20,
         "location": "2:13:18",
         "code_v1": "ﯘ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯘ"
+                "page_number": 3,
+                "text": "ﯘ"
       },
       {
         "id": 15199,
@@ -1412,10 +1214,8 @@
         "verse_id": 20,
         "location": "2:13:19",
         "code_v1": "ﯙ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯙ"
+                "page_number": 3,
+                "text": "ﯙ"
       },
       {
         "id": 15200,
@@ -1425,10 +1225,8 @@
         "verse_id": 20,
         "location": "2:13:20",
         "code_v1": "ﯚ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯚ"
+                "page_number": 3,
+                "text": "ﯚ"
       }
     ]
   },
@@ -1453,10 +1251,8 @@
         "verse_id": 21,
         "location": "2:14:1",
         "code_v1": "ﯛ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯛ"
+                "page_number": 3,
+                "text": "ﯛ"
       },
       {
         "id": 16290,
@@ -1466,10 +1262,8 @@
         "verse_id": 21,
         "location": "2:14:2",
         "code_v1": "ﯜ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 11,
-        "text": "ﯜ"
+                "page_number": 3,
+                "text": "ﯜ"
       },
       {
         "id": 16291,
@@ -1479,10 +1273,8 @@
         "verse_id": 21,
         "location": "2:14:3",
         "code_v1": "ﯝ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯝ"
+                "page_number": 3,
+                "text": "ﯝ"
       },
       {
         "id": 16292,
@@ -1492,10 +1284,8 @@
         "verse_id": 21,
         "location": "2:14:4",
         "code_v1": "ﯞ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯞ"
+                "page_number": 3,
+                "text": "ﯞ"
       },
       {
         "id": 16293,
@@ -1505,10 +1295,8 @@
         "verse_id": 21,
         "location": "2:14:5",
         "code_v1": "ﯟ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯟ"
+                "page_number": 3,
+                "text": "ﯟ"
       },
       {
         "id": 16294,
@@ -1518,10 +1306,8 @@
         "verse_id": 21,
         "location": "2:14:6",
         "code_v1": "ﯠ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯠ"
+                "page_number": 3,
+                "text": "ﯠ"
       },
       {
         "id": 16295,
@@ -1531,10 +1317,8 @@
         "verse_id": 21,
         "location": "2:14:7",
         "code_v1": "ﯡ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯡ"
+                "page_number": 3,
+                "text": "ﯡ"
       },
       {
         "id": 16296,
@@ -1544,10 +1328,8 @@
         "verse_id": 21,
         "location": "2:14:8",
         "code_v1": "ﯢ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯢ"
+                "page_number": 3,
+                "text": "ﯢ"
       },
       {
         "id": 16297,
@@ -1557,10 +1339,8 @@
         "verse_id": 21,
         "location": "2:14:9",
         "code_v1": "ﯣ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯣ"
+                "page_number": 3,
+                "text": "ﯣ"
       },
       {
         "id": 16298,
@@ -1570,10 +1350,8 @@
         "verse_id": 21,
         "location": "2:14:10",
         "code_v1": "ﯤ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯤ"
+                "page_number": 3,
+                "text": "ﯤ"
       },
       {
         "id": 16299,
@@ -1583,10 +1361,8 @@
         "verse_id": 21,
         "location": "2:14:11",
         "code_v1": "ﯥ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯥ"
+                "page_number": 3,
+                "text": "ﯥ"
       },
       {
         "id": 16300,
@@ -1596,10 +1372,8 @@
         "verse_id": 21,
         "location": "2:14:12",
         "code_v1": "ﯦ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 12,
-        "text": "ﯦ"
+                "page_number": 3,
+                "text": "ﯦ"
       },
       {
         "id": 16301,
@@ -1609,10 +1383,8 @@
         "verse_id": 21,
         "location": "2:14:13",
         "code_v1": "ﯧ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯧ"
+                "page_number": 3,
+                "text": "ﯧ"
       },
       {
         "id": 16302,
@@ -1622,10 +1394,8 @@
         "verse_id": 21,
         "location": "2:14:14",
         "code_v1": "ﯨ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯨ"
+                "page_number": 3,
+                "text": "ﯨ"
       },
       {
         "id": 16303,
@@ -1635,10 +1405,8 @@
         "verse_id": 21,
         "location": "2:14:15",
         "code_v1": "ﯩ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯩ"
+                "page_number": 3,
+                "text": "ﯩ"
       },
       {
         "id": 16304,
@@ -1648,10 +1416,8 @@
         "verse_id": 21,
         "location": "2:14:16",
         "code_v1": "ﯪ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯪ"
+                "page_number": 3,
+                "text": "ﯪ"
       },
       {
         "id": 16305,
@@ -1661,10 +1427,8 @@
         "verse_id": 21,
         "location": "2:14:17",
         "code_v1": "ﯫ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯫ"
+                "page_number": 3,
+                "text": "ﯫ"
       }
     ]
   },
@@ -1689,10 +1453,8 @@
         "verse_id": 22,
         "location": "2:15:1",
         "code_v1": "ﯬ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯬ"
+                "page_number": 3,
+                "text": "ﯬ"
       },
       {
         "id": 17495,
@@ -1702,10 +1464,8 @@
         "verse_id": 22,
         "location": "2:15:2",
         "code_v1": "ﯭ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯭ"
+                "page_number": 3,
+                "text": "ﯭ"
       },
       {
         "id": 17496,
@@ -1715,10 +1475,8 @@
         "verse_id": 22,
         "location": "2:15:3",
         "code_v1": "ﯮ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯮ"
+                "page_number": 3,
+                "text": "ﯮ"
       },
       {
         "id": 17497,
@@ -1728,10 +1486,8 @@
         "verse_id": 22,
         "location": "2:15:4",
         "code_v1": "ﯯ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 13,
-        "text": "ﯯ"
+                "page_number": 3,
+                "text": "ﯯ"
       },
       {
         "id": 17498,
@@ -1741,10 +1497,8 @@
         "verse_id": 22,
         "location": "2:15:5",
         "code_v1": "ﯰ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯰ"
+                "page_number": 3,
+                "text": "ﯰ"
       },
       {
         "id": 17499,
@@ -1754,10 +1508,8 @@
         "verse_id": 22,
         "location": "2:15:6",
         "code_v1": "ﯱ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯱ"
+                "page_number": 3,
+                "text": "ﯱ"
       },
       {
         "id": 17500,
@@ -1767,10 +1519,8 @@
         "verse_id": 22,
         "location": "2:15:7",
         "code_v1": "ﯲ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯲ"
+                "page_number": 3,
+                "text": "ﯲ"
       },
       {
         "id": 17501,
@@ -1780,10 +1530,8 @@
         "verse_id": 22,
         "location": "2:15:8",
         "code_v1": "ﯳ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯳ"
+                "page_number": 3,
+                "text": "ﯳ"
       }
     ]
   },
@@ -1808,10 +1556,8 @@
         "verse_id": 23,
         "location": "2:16:1",
         "code_v1": "ﯴ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯴ"
+                "page_number": 3,
+                "text": "ﯴ"
       },
       {
         "id": 18659,
@@ -1821,10 +1567,8 @@
         "verse_id": 23,
         "location": "2:16:2",
         "code_v1": "ﯵ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯵ"
+                "page_number": 3,
+                "text": "ﯵ"
       },
       {
         "id": 18660,
@@ -1834,10 +1578,8 @@
         "verse_id": 23,
         "location": "2:16:3",
         "code_v1": "ﯶ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯶ"
+                "page_number": 3,
+                "text": "ﯶ"
       },
       {
         "id": 18661,
@@ -1847,10 +1589,8 @@
         "verse_id": 23,
         "location": "2:16:4",
         "code_v1": "ﯷ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 14,
-        "text": "ﯷ"
+                "page_number": 3,
+                "text": "ﯷ"
       },
       {
         "id": 18662,
@@ -1860,10 +1600,8 @@
         "verse_id": 23,
         "location": "2:16:5",
         "code_v1": "ﯸ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯸ"
+                "page_number": 3,
+                "text": "ﯸ"
       },
       {
         "id": 18663,
@@ -1873,10 +1611,8 @@
         "verse_id": 23,
         "location": "2:16:6",
         "code_v1": "ﯹ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯹ"
+                "page_number": 3,
+                "text": "ﯹ"
       },
       {
         "id": 18664,
@@ -1886,10 +1622,8 @@
         "verse_id": 23,
         "location": "2:16:7",
         "code_v1": "ﯺ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯺ"
+                "page_number": 3,
+                "text": "ﯺ"
       },
       {
         "id": 18665,
@@ -1899,10 +1633,8 @@
         "verse_id": 23,
         "location": "2:16:8",
         "code_v1": "ﯻ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯻ"
+                "page_number": 3,
+                "text": "ﯻ"
       },
       {
         "id": 18666,
@@ -1912,10 +1644,8 @@
         "verse_id": 23,
         "location": "2:16:9",
         "code_v1": "ﯼ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯼ"
+                "page_number": 3,
+                "text": "ﯼ"
       },
       {
         "id": 18667,
@@ -1925,10 +1655,8 @@
         "verse_id": 23,
         "location": "2:16:10",
         "code_v1": "ﯽ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯽ"
+                "page_number": 3,
+                "text": "ﯽ"
       },
       {
         "id": 18668,
@@ -1938,10 +1666,8 @@
         "verse_id": 23,
         "location": "2:16:11",
         "code_v1": "ﯾ",
-        "char_type_name": "word",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯾ"
+                "page_number": 3,
+                "text": "ﯾ"
       },
       {
         "id": 18669,
@@ -1951,10 +1677,8 @@
         "verse_id": 23,
         "location": "2:16:12",
         "code_v1": "ﯿ",
-        "char_type_name": "end",
-        "page_number": 3,
-        "line_number": 15,
-        "text": "ﯿ"
+                "page_number": 3,
+                "text": "ﯿ"
       }
     ]
   }
