@@ -39,7 +39,7 @@ Add the package to your dependencies:
 
 ```yaml
 dependencies:
-  quran_controller: ^1.6.3
+  quran_controller: ^1.6.4
 ```
 
 <p align="center">OR</p>
