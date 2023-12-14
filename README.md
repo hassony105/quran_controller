@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Quran Controller</h1>
   <div>
-    <a title="pub.dev" href="https://pub.dartlang.org/packages/quran_qontroller" >
+    <a title="pub.dev" href="https://pub.dartlang.org/packages/quran_controller" >
         <img alt="Pub Version" src="https://img.shields.io/pub/v/quran_controller">
     </a>
     <a title="GitHub License" href="https://github.com/hassony105/quran_controller/blob/master/LICENSE">
