@@ -1,38 +1,51 @@
 import 'models.dart';
 
-class Surah{
+/// [Surah] which is the model class that responsible on all details of Quran Surahs.
+class Surah {
+  /// [surahNumber] the variable that holding the number of surah.
   int? surahNumber;
-  int? versesCount;
+
+  /// [surahName] the variable that holding the name of exact surah.
   String? surahName;
-  String? revelationPlace;
+
+  /// [startPage] the variable that holding the number of page that the exact surah starts with.
   int? startPage;
+
+  /// [endPage] the variable that holding the number of page that the exact surah ends with.
   int? endPage;
+
+  /// [verses] the variable that holding the verses of exact surah.
   List<Verse>? verses;
 
-  Surah({this.surahNumber, this.versesCount, this.surahName, this.revelationPlace, this.startPage, this.endPage, this.verses});
+  /// the main constructor of [Surah] class.
+  Surah(
+      {this.surahNumber,
+      this.surahName,
+      this.startPage,
+      this.endPage,
+      this.verses});
 
-  Surah.fromJson(Map<String, dynamic> data){
+  /// [Surah.fromJson] is a named constructor that convert a [Map] into [Surah] class object.
+  Surah.fromJson(Map<String, dynamic> data) {
     surahNumber = data['surahNumber'];
-    versesCount = data['versesCount'];
     surahName = data['surahName'];
-    revelationPlace = data['revelationPlace'];
     startPage = data['startPage'];
     endPage = data['endPage'];
-    verses = data['verses'] != null?[for(var item in data['verses']) Verse.fromJson(item)]:[];
+    verses = data['verses'] != null
+        ? [for (var item in data['verses']) Verse.fromJson(item)]
+        : [];
   }
 
-  Map<String, dynamic> toJson(){
+  /// [toJson] is a method that convert all variables of [Surah] class into a [Map].
+  Map<String, dynamic> toJson() {
     Map<String, dynamic> data = {};
 
     data['surahNumber'] = surahNumber;
-    data['versesCount'] = versesCount;
     data['surahName'] = surahName;
-    data['revelationPlace'] = revelationPlace;
     data['startPage'] = startPage;
     data['endPage'] = endPage;
     data['verse'] = verses?.map((e) => e.toJson()).toList();
 
     return data;
   }
-
 }
