@@ -64,7 +64,14 @@ class Verse {
   }
 
   /// [copyWith] is a method that replace the old values with the new values.
-  Verse copyWith({int? verseNumber, String? verseKey, String? textImlaeiSimple, int? pageNumber, int? juzNumber, List<String>? words, String? font}) {
+  Verse copyWith(
+      {int? verseNumber,
+      String? verseKey,
+      String? textImlaeiSimple,
+      int? pageNumber,
+      int? juzNumber,
+      List<String>? words,
+      String? font}) {
     return Verse(
       verseNumber: verseNumber ?? this.verseNumber,
       verseKey: verseKey ?? this.verseKey,
@@ -75,7 +82,6 @@ class Verse {
       font: font ?? this.font,
     );
   }
-
 
   /// [copyWithBasmala] is a method that replace the verse with the Basmala verse.
   Verse copyWithBasmala(Verse basmalaVerse) {
