@@ -7,3 +7,8 @@
 * Makes the website is reachable via "HEAD" requests.
 * Providing good documentation for library, classes, functions, and other API elements.
 * Dart Formatting
+
+## 1.6.6
+* Makes the website is reachable via "HEAD" requests.
+* Dart Formatting
+* changes in README.md
