@@ -41,7 +41,8 @@ class VersesService {
       for (var item in body) {
         verses.add(Verse.fromJson(item));
         if (verses.last.verseNumber == 1 && verses.last.surahNumber != 1) {
-          verses.insert(verses.length - 1, verses.last.copyWithBasmala(basmalaVerse));
+          Verse verseWithBasmala = verses.last.copyWithBasmala(basmalaVerse);
+          verses.insert(verses.length - 1, verseWithBasmala);
         }
       }
       FontLoaderService fontLoaderService =
