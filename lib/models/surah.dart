@@ -17,13 +17,18 @@ class Surah {
   /// [verses] the variable that holding the verses of exact surah.
   List<Verse>? verses;
 
+  /// [versesCount] the variable that holding the number of verses that the exact surah contains.
+  int? versesCount;
+
   /// the main constructor of [Surah] class.
-  Surah(
-      {this.surahNumber,
-      this.surahName,
-      this.startPage,
-      this.endPage,
-      this.verses});
+  Surah({
+    this.surahNumber,
+    this.surahName,
+    this.startPage,
+    this.endPage,
+    this.verses,
+    this.versesCount,
+  });
 
   /// [Surah.fromJson] is a named constructor that convert a [Map] into [Surah] class object.
   Surah.fromJson(Map<String, dynamic> data) {
@@ -31,6 +36,7 @@ class Surah {
     surahName = data['surahName'];
     startPage = data['startPage'];
     endPage = data['endPage'];
+    versesCount = data['versesCount'];
     verses = data['verses'] != null
         ? [for (var item in data['verses']) Verse.fromJson(item)]
         : [];
@@ -44,7 +50,8 @@ class Surah {
     data['surahName'] = surahName;
     data['startPage'] = startPage;
     data['endPage'] = endPage;
-    data['verse'] = verses?.map((e) => e.toJson()).toList();
+    data['versesCount'] = versesCount;
+    data['verses'] = verses?.map((e) => e.toJson()).toList();
 
     return data;
   }

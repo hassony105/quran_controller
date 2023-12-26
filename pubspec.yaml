@@ -1,6 +1,6 @@
 name: quran_controller
 description: Quran Controller that offering a Quran Verses With Quran font which is Called Uthmani script
-version: 1.6.7
+version: 1.6.8
 homepage: http://www.hassony.com
 
 environment:

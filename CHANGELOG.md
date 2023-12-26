@@ -16,3 +16,6 @@
 ## 1.6.7
 * Changes the Example project
 * Fix a bug with verses word.
+
+## 1.6.8
+* Added `versesCount` property to the Surah class model.
