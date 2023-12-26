@@ -47,7 +47,7 @@ class Verse {
     pageNumber = data['page_number'];
     juzNumber = data['juz_number'];
     font = data['font'];
-    if (data['words'] != null) words = data['words'].map((e) => '$e').toList();
+    if (data['words'] != null) words = [for( var w in data['words']) '$w'];
   }
 
   /// [toJson] is a method that convert all variables of [Verse] class into a [Map].
