@@ -12,3 +12,7 @@
 * Makes the website is reachable via "HEAD" requests.
 * Dart Formatting
 * changes in README.md
+
+## 1.6.7
+* Changes the Example project
+* Fix a bug with verses word.
