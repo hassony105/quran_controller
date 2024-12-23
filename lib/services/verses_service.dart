@@ -10,9 +10,9 @@ Verse basmalaVerse = Verse(
     textImlaeiSimple: 'بسم الله الرحمن الرحيم',
     words: [
       '\u003B',
-      '\u003C',
-      '\u003D',
       '\u003E',
+      '\u003D',
+      '\u003C',
     ],
     font: QuranController.instance.basmalaAndSurahsNameFontsFamily);
 
