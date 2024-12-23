@@ -19,3 +19,8 @@
 
 ## 1.6.8
 * Added `versesCount` property to the Surah class model.
+
+## 1.6.9
+* Fix `basmalaVerse` word list sequence.
+* Separate `QuranSurahView` in Example app to 3 named constructors [`bySurah`, `byJuz`, `byVerse`].
+* Add full support for `QuranSurahView.byJuz` in Example App.
